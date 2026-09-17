@@ -3,8 +3,9 @@ import { revalidatePath, revalidateTag } from "next/cache";
 import { Resend } from "resend";
 import { runNewestCheck } from "../../../../lib/check-newest";
 import {
-  readDiscovered,
+  readDiscoveredWithStatus,
   writeDiscovered,
+  type BlobStatus,
   type DiscoveredEtb,
 } from "../../../../lib/discovered-etbs";
 import { PC_CACHE_TAG } from "../../../../lib/pricecharting";
@@ -67,9 +68,19 @@ export async function GET(req: Request) {
     return NextResponse.json({ error: "unauthorized" }, { status: 401 });
   }
 
+  // Read the already-discovered list first: those sets count as tracked for
+  // this run, so they neither get re-scraped nor re-notify every single week.
+  const {
+    entries: existing,
+    notifiedSetIds,
+    status: readStatus,
+  } = await readDiscoveredWithStatus();
+  const existingIds = new Set(existing.map((e) => e.setId));
+  const alreadyNotified = new Set(notifiedSetIds);
+
   let result;
   try {
-    result = await runNewestCheck();
+    result = await runNewestCheck(existingIds);
   } catch (e) {
     return NextResponse.json(
       { error: e instanceof Error ? e.message : String(e) },
@@ -78,13 +89,18 @@ export async function GET(req: Request) {
   }
 
   const liveFinds = result.untrackedSets.filter((s) => s.sealed && s.etbUrl);
+  // A set with no Pokemon Center ETB never lands in `entries`, so gate on the
+  // notified list instead — otherwise something like a Classic Collection
+  // subset is reported as "new" on every run indefinitely.
   const newSetUntracked =
-    result.newestSet && !result.newestSet.tracked ? result.newestSet : null;
+    result.newestSet &&
+    !result.newestSet.tracked &&
+    !alreadyNotified.has(result.newestSet.setId)
+      ? result.newestSet
+      : null;
 
   // Persist live finds to the discovered blob so they show up on the site
   // without manual editing. Idempotent: existing entries are kept as-is.
-  const existing = await readDiscovered();
-  const existingIds = new Set(existing.map((e) => e.setId));
   const newlyAdded: DiscoveredEtb[] = [];
   for (const find of liveFinds) {
     if (!find.etbUrl) continue;
@@ -98,19 +114,41 @@ export async function GET(req: Request) {
       }),
     );
   }
-  let persisted = false;
+  const allEntries = [...existing, ...newlyAdded];
+  let writeStatus: BlobStatus | null = null;
   if (newlyAdded.length > 0) {
-    persisted = await writeDiscovered([...existing, ...newlyAdded]);
-    if (persisted) {
-      revalidateTag(PC_CACHE_TAG, "max");
+    writeStatus = await writeDiscovered({ entries: allEntries, notifiedSetIds });
+    if (writeStatus.ok) {
+      // A brand-new row has to actually appear, so expire the tag immediately
+      // instead of the "max" stale-while-revalidate profile used for routine
+      // price refreshes — otherwise the new ETB is withheld another cycle.
+      revalidateTag(PC_CACHE_TAG, { expire: 0 });
       revalidatePath("/", "page");
     }
+  }
+
+  // Surface a broken blob store loudly: a failed write means the find is lost
+  // and the site silently stops updating, which is exactly the failure this
+  // job exists to prevent. Non-2xx so it shows up as a failed cron run.
+  if (writeStatus && !writeStatus.ok) {
+    return NextResponse.json(
+      {
+        status: "persist-failed",
+        blobWrite: writeStatus,
+        blobRead: readStatus,
+        checkedAt: result.fetchedAt,
+        droppedFinds: newlyAdded.map((e) => e.setId),
+      },
+      { status: 500 },
+    );
   }
 
   if (liveFinds.length === 0 && !newSetUntracked) {
     return NextResponse.json({
       status: "no-new-etbs",
       checkedAt: result.fetchedAt,
+      blobRead: readStatus,
+      trackedDiscovered: existing.length,
     });
   }
 
@@ -122,6 +160,9 @@ export async function GET(req: Request) {
         warning: "RESEND_API_KEY not set; skipping email",
         liveFinds,
         newSetUntracked,
+        persistedToBlob: writeStatus?.ok ?? null,
+        newlyAdded: newlyAdded.map((e) => e.setId),
+        blobRead: readStatus,
       },
       { status: 200 },
     );
@@ -190,13 +231,32 @@ export async function GET(req: Request) {
     html,
   });
 
+  // Record what was announced only after the send actually succeeded, so a
+  // Resend outage retries next run instead of silently swallowing the alert.
+  let notifyWriteStatus: BlobStatus | null = null;
+  if (!sent.error) {
+    const announced = [
+      ...liveFinds.map((s) => s.setId),
+      ...(newSetUntracked ? [newSetUntracked.setId] : []),
+    ].filter((id) => !alreadyNotified.has(id));
+    if (announced.length > 0) {
+      notifyWriteStatus = await writeDiscovered({
+        entries: allEntries,
+        notifiedSetIds: [...notifiedSetIds, ...announced],
+      });
+    }
+  }
+
   return NextResponse.json({
     status: "notified",
     emailId: sent.data?.id ?? null,
     sendError: sent.error ?? null,
     liveFinds: liveFinds.length,
     newSetUntracked: newSetUntracked?.setId ?? null,
-    persistedToBlob: persisted,
+    persistedToBlob: writeStatus?.ok ?? null,
+    notifyStatePersisted: notifyWriteStatus?.ok ?? null,
     newlyAddedCount: newlyAdded.length,
+    newlyAdded: newlyAdded.map((e) => e.setId),
+    blobRead: readStatus,
   });
 }

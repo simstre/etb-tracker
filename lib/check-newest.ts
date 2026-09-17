@@ -30,8 +30,18 @@ export type NewestCheck = {
   }[];
 };
 
-export async function runNewestCheck(): Promise<NewestCheck> {
-  const knownSetIds = new Set(ETBS.map((e) => e.setId));
+/**
+ * @param alreadyDiscovered set IDs already persisted by a previous run. Without
+ * these the check only knows about the hardcoded ETBS, so every auto-discovered
+ * set stays "untracked" forever and re-notifies on every weekly run.
+ */
+export async function runNewestCheck(
+  alreadyDiscovered: Iterable<string> = [],
+): Promise<NewestCheck> {
+  const knownSetIds = new Set([
+    ...ETBS.map((e) => e.setId),
+    ...alreadyDiscovered,
+  ]);
   const sets = await fetchAllSets();
 
   const candidates = sets

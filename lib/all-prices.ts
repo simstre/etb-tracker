@@ -87,10 +87,14 @@ async function fetchOne(etb: ETB): Promise<EtbWithPrices> {
   };
 }
 
-export async function getAllPrices(): Promise<EtbWithPrices[]> {
+/**
+ * The full tracked list: hardcoded entries first (curated by hand), then
+ * auto-discovered ones at the bottom. The page sort puts newest-released first
+ * regardless of source. Shared with the page header so the "Tracking N ETBs"
+ * counts can never drift from the rows actually rendered.
+ */
+export async function getTrackedEtbs(): Promise<ETB[]> {
   const discovered = await readDiscovered();
-  // Hardcoded entries first (curated by hand), then auto-discovered ones at the
-  // bottom. The page sort puts newest-released first regardless of source.
   const all: ETB[] = [...ETBS];
   const known = new Set(
     ETBS.map((e) => `${e.setId}:${e.promoNum || "base"}`),
@@ -99,5 +103,9 @@ export async function getAllPrices(): Promise<EtbWithPrices[]> {
     const key = `${d.setId}:${d.promoNum || "base"}`;
     if (!known.has(key)) all.push(d);
   }
-  return chunked(all, 4, fetchOne, 500);
+  return all;
+}
+
+export async function getAllPrices(): Promise<EtbWithPrices[]> {
+  return chunked(await getTrackedEtbs(), 4, fetchOne, 500);
 }

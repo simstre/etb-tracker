@@ -7,13 +7,31 @@
  *
  * Gracefully degrades when BLOB_READ_WRITE_TOKEN is missing — read returns an
  * empty list and write is a no-op — so the build keeps working before the
- * blob store is linked.
+ * blob store is linked. Both paths report *why* they degraded rather than
+ * swallowing it: a missing blob store silently disables auto-discovery
+ * entirely, and that failure is otherwise invisible from the outside.
  */
 import { put, list } from "@vercel/blob";
 import { type ETB } from "./etbs";
+import { PC_CACHE_TAG } from "./pricecharting";
 
 export type DiscoveredEtb = ETB & {
   discoveredAt: string;
+};
+
+export type BlobStatus =
+  | { ok: true }
+  | { ok: false; reason: "not-configured" | "empty" | "error"; detail?: string };
+
+/**
+ * Set IDs already announced by a notification. A set that has no Pokemon Center
+ * ETB (a subset like "30th Celebration: Classic Collection") is never added to
+ * `entries`, so without this it stays permanently "new" and re-notifies on
+ * every run.
+ */
+export type DiscoveryState = {
+  entries: DiscoveredEtb[];
+  notifiedSetIds: string[];
 };
 
 const BLOB_PATHNAME = "discovered-etbs.json";
@@ -22,30 +40,71 @@ function blobEnabled(): boolean {
   return !!process.env.BLOB_READ_WRITE_TOKEN;
 }
 
-export async function readDiscovered(): Promise<DiscoveredEtb[]> {
-  if (!blobEnabled()) return [];
+export async function readDiscoveredWithStatus(): Promise<
+  DiscoveryState & { status: BlobStatus }
+> {
+  const empty = { entries: [], notifiedSetIds: [] };
+  if (!blobEnabled()) {
+    console.warn(
+      "[discovered-etbs] BLOB_READ_WRITE_TOKEN missing — auto-discovered ETBs will not be shown. Link a Vercel Blob store to this project.",
+    );
+    return { ...empty, status: { ok: false, reason: "not-configured" } };
+  }
   try {
     const { blobs } = await list({ prefix: BLOB_PATHNAME, limit: 1 });
     const match = blobs.find((b) => b.pathname === BLOB_PATHNAME);
-    if (!match) return [];
+    if (!match) return { ...empty, status: { ok: false, reason: "empty" } };
     const r = await fetch(match.downloadUrl ?? match.url, {
-      next: { revalidate: 21600, tags: ["pc-prices-v5"] },
+      next: { revalidate: 21600, tags: [PC_CACHE_TAG] },
     });
-    if (!r.ok) return [];
+    if (!r.ok) {
+      console.error(`[discovered-etbs] blob fetch failed: http ${r.status}`);
+      return {
+        ...empty,
+        status: { ok: false, reason: "error", detail: `http ${r.status}` },
+      };
+    }
     const data = await r.json();
-    if (!Array.isArray(data?.entries)) return [];
-    return data.entries as DiscoveredEtb[];
-  } catch {
-    return [];
+    if (!Array.isArray(data?.entries)) {
+      console.error("[discovered-etbs] blob JSON has no `entries` array");
+      return {
+        ...empty,
+        status: { ok: false, reason: "error", detail: "malformed blob" },
+      };
+    }
+    return {
+      entries: data.entries as DiscoveredEtb[],
+      // Absent on blobs written before notification state was tracked.
+      notifiedSetIds: Array.isArray(data?.notifiedSetIds)
+        ? (data.notifiedSetIds as string[])
+        : [],
+      status: { ok: true },
+    };
+  } catch (e) {
+    const detail = e instanceof Error ? e.message : String(e);
+    console.error("[discovered-etbs] read failed:", detail);
+    return { ...empty, status: { ok: false, reason: "error", detail } };
   }
 }
 
-export async function writeDiscovered(entries: DiscoveredEtb[]): Promise<boolean> {
-  if (!blobEnabled()) return false;
+export async function readDiscovered(): Promise<DiscoveredEtb[]> {
+  return (await readDiscoveredWithStatus()).entries;
+}
+
+export async function writeDiscovered(
+  state: DiscoveryState,
+): Promise<BlobStatus> {
+  if (!blobEnabled()) {
+    console.error(
+      "[discovered-etbs] cannot persist newly-discovered ETBs: BLOB_READ_WRITE_TOKEN missing.",
+    );
+    return { ok: false, reason: "not-configured" };
+  }
   try {
     const body = JSON.stringify({
       updatedAt: new Date().toISOString(),
-      entries,
+      entries: state.entries,
+      notifiedSetIds: state.notifiedSetIds,
     });
     await put(BLOB_PATHNAME, body, {
       access: "public",
@@ -53,8 +112,10 @@ export async function writeDiscovered(entries: DiscoveredEtb[]): Promise<boolean
       allowOverwrite: true,
       contentType: "application/json",
     });
-    return true;
-  } catch {
-    return false;
+    return { ok: true };
+  } catch (e) {
+    const detail = e instanceof Error ? e.message : String(e);
+    console.error("[discovered-etbs] write failed:", detail);
+    return { ok: false, reason: "error", detail };
   }
 }

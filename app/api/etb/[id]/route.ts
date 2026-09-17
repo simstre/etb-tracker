@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { ETBS } from "../../../../lib/etbs";
+import { getTrackedEtbs } from "../../../../lib/all-prices";
 import {
   fetchEtbPrices,
   scrapePriceCharting,
@@ -13,7 +13,9 @@ export async function GET(
   ctx: { params: Promise<{ id: string }> },
 ) {
   const { id } = await ctx.params;
-  const etb = ETBS.find((e) => `${e.setId}:${e.promoNum || "base"}` === id);
+  // Tracked list, not just the hardcoded one, so auto-discovered ETBs resolve.
+  const tracked = await getTrackedEtbs();
+  const etb = tracked.find((e) => `${e.setId}:${e.promoNum || "base"}` === id);
   if (!etb) {
     return NextResponse.json({ error: "etb not found" }, { status: 404 });
   }

@@ -1,6 +1,5 @@
 import { Suspense } from "react";
-import { ETBS } from "../lib/etbs";
-import { getAllPrices } from "../lib/all-prices";
+import { getAllPrices, getTrackedEtbs } from "../lib/all-prices";
 import { fetchUsdToCad } from "../lib/fx";
 import { EtbTable } from "../components/EtbTable";
 
@@ -22,9 +21,12 @@ function TableSkeleton() {
   );
 }
 
-export default function Home() {
-  const totalEtbs = ETBS.length;
-  const totalSets = new Set(ETBS.map((e) => e.setId)).size;
+export default async function Home() {
+  // Counts come from the same merged list the table renders, so auto-discovered
+  // ETBs are included rather than only the hardcoded ones.
+  const tracked = await getTrackedEtbs();
+  const totalEtbs = tracked.length;
+  const totalSets = new Set(tracked.map((e) => e.setId)).size;
 
   return (
     <main className="min-h-screen">
