@@ -14,7 +14,7 @@ import {
   scrapePriceCharting,
   type PCPrices,
 } from "../lib/pricecharting";
-import { getTopChases } from "../lib/top-chases";
+import { getTopChases, pcSetSlugFromUrl } from "../lib/top-chases";
 
 type EntrySnapshot = {
   id: string;
@@ -37,7 +37,11 @@ async function fetchOne(etb: typeof ETBS[number]): Promise<EntrySnapshot> {
     etb.pcPromoUrl
       ? scrapePriceCharting(etb.pcPromoUrl, { revalidate: false })
       : Promise.resolve({} as PCPrices),
-    getTopChases(etb.setId).catch(() => [] as ReturnType<typeof getTopChases> extends Promise<infer R> ? R : never),
+    // Same fallback slug the page uses, so sets missing from PC_SET_SLUGS get
+    // a real snapshot floor instead of an empty chase list.
+    getTopChases(etb.setId, pcSetSlugFromUrl(etb.pcEtbUrl), true).catch(
+      () => [] as ReturnType<typeof getTopChases> extends Promise<infer R> ? R : never,
+    ),
   ]);
   const topChasesTotal = topChases.length
     ? topChases.reduce((s, c) => s + c.market, 0)

@@ -57,6 +57,20 @@ const STAMPED_FRAGMENTS = [
   "prerelease",
   "staff",
   "winner",
+  // League / event / program distributions. These are in the set's catalog on
+  // PriceCharting but can't be pulled from a booster, so they were inflating
+  // the top-5 against this list's stated intent. They also have no art on PC,
+  // which is how they showed up — as chase cards with no image.
+  "prize-pack",
+  "professor-program",
+  "league",
+  "judge",
+  "cosmos",
+  "top-8",
+  "-play-",
+  "-gym-",
+  "jumbo",
+  "pokemon-together",
 ];
 
 function isCardSlug(slug: string): boolean {
@@ -77,9 +91,18 @@ function parsePrice(text: string): number | null {
   return Number.isNaN(n) ? null : n;
 }
 
+/**
+ * @param fetchImages fetch each top-5 product page for its art. Off by default:
+ * that is 5 extra requests per set, and doing it on every render got the batch
+ * rate-limited, which is what left chase cards art-less. Card art is immutable,
+ * so the page resolves it from data/snapshot.json instead and only fetches the
+ * handful of cards the snapshot has never seen. scripts/build-snapshot.ts opts
+ * in, since it runs sequentially offline where PriceCharting does not throttle.
+ */
 export async function getTopChasesFromPC(
   setSlug: string,
   opts: ScrapeOptions = {},
+  fetchImages = false,
 ): Promise<TopChase[]> {
   const url = `https://www.pricecharting.com/console/${setSlug}`;
   const fetchInit: RequestInit & { next?: { revalidate?: number; tags?: string[] } } = {
@@ -134,16 +157,22 @@ export async function getTopChasesFromPC(
   // responses share the 6h PC cache, so this is cheap after the first render.
   // An image that fails to load leaves the card in place without art rather
   // than dropping it from the list.
-  const images = await Promise.all(
-    top.map((r) =>
-      scrapePriceCharting(
-        `https://www.pricecharting.com/game/${setSlug}/${r.slug}`,
-        opts,
-      )
-        .then((d) => d.imageUrl ?? null)
-        .catch(() => null),
-    ),
-  );
+  // Sequential rather than Promise.all so the offline snapshot run stays under
+  // PriceCharting's rate limit.
+  const images: (string | null)[] = [];
+  for (const r of top) {
+    if (!fetchImages) {
+      images.push(null);
+      continue;
+    }
+    const img = await scrapePriceCharting(
+      `https://www.pricecharting.com/game/${setSlug}/${r.slug}`,
+      opts,
+    )
+      .then((d) => d.imageUrl ?? null)
+      .catch(() => null);
+    images.push(img);
+  }
 
   return top.map((r, i): TopChase => {
     const numMatch = r.slug.match(/-(\d{1,4})$/);

@@ -1,3 +1,10 @@
+// Static rather than a dynamic import: the fallback is the only path that can
+// produce chases for a set TCGPlayer has not priced yet, and a dynamic import
+// fails outside the bundler (e.g. scripts/build-snapshot.ts), which silently
+// wrote empty chases for exactly those sets. cheerio is already pulled in
+// statically by ./pricecharting, so this costs nothing.
+import { getTopChasesFromPC } from "./top-chases-pc";
+
 type TcgPrices = Record<string, { market?: number; mid?: number }>;
 
 type TcgCard = {
@@ -156,6 +163,7 @@ async function fetchSetCards(setId: string): Promise<TcgCard[]> {
 export async function getTopChases(
   setId: string,
   fallbackPcSlug?: string | null,
+  fetchImages = false,
 ): Promise<TopChase[]> {
   const ids = [setId, ...(SUBSETS[setId] ?? [])];
   const groups = await Promise.all(ids.map(fetchSetCards));
@@ -193,9 +201,6 @@ export async function getTopChases(
   // Fallback: pokemontcg.io has no priced cards yet (very recent sets).
   // Scrape PriceCharting's set page for top 5 by ungraded price.
   const slug = PC_SET_SLUGS[setId] ?? fallbackPcSlug;
-  if (slug) {
-    const { getTopChasesFromPC } = await import("./top-chases-pc");
-    return getTopChasesFromPC(slug);
-  }
+  if (slug) return getTopChasesFromPC(slug, {}, fetchImages);
   return [];
 }
