@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0b0d12;
+  --background-soft: #11141b;
+  --foreground: #f4f5f7;
+  --muted: #8a8f9c;
+  --border: #1f2330;
+  --accent: #ffcb05;
+  --accent-soft: #fff3a8;
+  --poke-blue: #3b6cf2;
+  --poke-red: #ef4444;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-background-soft: var(--background-soft);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-poke-blue: var(--poke-blue);
+  --color-poke-red: var(--poke-red);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background:
+    radial-gradient(1200px 600px at 10% -10%, rgba(59, 108, 242, 0.18), transparent 60%),
+    radial-gradient(900px 500px at 110% 10%, rgba(255, 203, 5, 0.10), transparent 60%),
+    var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.card-tilt {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.card-tilt:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255, 203, 5, 0.4);
+  box-shadow: 0 20px 50px -20px rgba(0, 0, 0, 0.6),
+              0 0 0 1px rgba(255, 203, 5, 0.15);
+}
+
+@keyframes shimmer {
+  0% { background-position: -400px 0; }
+  100% { background-position: 400px 0; }
+}
+.shimmer {
+  background: linear-gradient(90deg, #1a1d27 0%, #242838 50%, #1a1d27 100%);
+  background-size: 800px 100%;
+  animation: shimmer 1.4s infinite linear;
+}
