@@ -49,7 +49,10 @@ function buildDiscoveredEntry(
 export const runtime = "nodejs";
 export const maxDuration = 60;
 
-const NOTIFY_TO = process.env.NOTIFY_EMAIL || "you@example.com";
+// No hardcoded fallback: the recipient is a personal address and this repo is
+// public. Set NOTIFY_EMAIL in the environment (it is already configured in
+// Production); without it the job runs and persists finds, just skips email.
+const NOTIFY_TO = process.env.NOTIFY_EMAIL;
 const FROM = process.env.NOTIFY_FROM || "ETB Tracker <onboarding@resend.dev>";
 
 function fmtUsd(n: number | null) {
@@ -153,11 +156,11 @@ export async function GET(req: Request) {
   }
 
   const apiKey = process.env.RESEND_API_KEY;
-  if (!apiKey) {
+  if (!apiKey || !NOTIFY_TO) {
     return NextResponse.json(
       {
         status: "would-notify",
-        warning: "RESEND_API_KEY not set; skipping email",
+        warning: `${!apiKey ? "RESEND_API_KEY" : "NOTIFY_EMAIL"} not set; skipping email`,
         liveFinds,
         newSetUntracked,
         persistedToBlob: writeStatus?.ok ?? null,
