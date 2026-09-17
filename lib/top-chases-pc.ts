@@ -1,5 +1,9 @@
 import * as cheerio from "cheerio";
-import { PC_CACHE_TAG, type ScrapeOptions } from "./pricecharting";
+import {
+  PC_CACHE_TAG,
+  scrapePriceCharting,
+  type ScrapeOptions,
+} from "./pricecharting";
 import type { TopChase } from "./top-chases";
 
 const UA =
@@ -125,14 +129,30 @@ export async function getTopChasesFromPC(
   rows.sort((a, b) => b.price - a.price);
   const top = rows.slice(0, 5);
 
-  return top.map((r): TopChase => {
+  // The set listing has no card art, so fetch each product page for its image.
+  // Only the top 5 of a set that already fell back to PriceCharting, and the
+  // responses share the 6h PC cache, so this is cheap after the first render.
+  // An image that fails to load leaves the card in place without art rather
+  // than dropping it from the list.
+  const images = await Promise.all(
+    top.map((r) =>
+      scrapePriceCharting(
+        `https://www.pricecharting.com/game/${setSlug}/${r.slug}`,
+        opts,
+      )
+        .then((d) => d.imageUrl ?? null)
+        .catch(() => null),
+    ),
+  );
+
+  return top.map((r, i): TopChase => {
     const numMatch = r.slug.match(/-(\d{1,4})$/);
     return {
       id: `${setSlug}/${r.slug}`,
       name: r.name,
       number: numMatch ? numMatch[1] : "",
       rarity: "",
-      image: null,
+      image: images[i],
       market: r.price,
       source: "pricecharting",
       sourceUrl: `https://www.pricecharting.com/game/${setSlug}/${r.slug}`,

@@ -61,6 +61,14 @@ const RAW: Omit<ETB, "era">[] = [
   { year: 2025, monthNum: 11, month: "November",  setName: "Phantasmal Flames",     setId: "me2",       promoName: "Charcadet",               promoNum: "MEP022",  promoSetId: "mep",   promoCardNum: "22",  pcEtbUrl: `${PC}/pokemon-phantasmal-flames/elite-trainer-box-pokemon-center`, pcPromoUrl: `${PC}/pokemon-promo/charcadet-pokemon-center-22`, notes: "Mega Charizard X ex / Mega Gengar ex are top chases." },
   { year: 2026, monthNum: 1,  month: "January",   setName: "Ascended Heroes",       setId: "me2pt5",    promoName: "N's Zekrom",              promoNum: "MEP031",  promoSetId: "mep",   promoCardNum: "31",  pcEtbUrl: `${PC}/pokemon-ascended-heroes/elite-trainer-box-pokemon-center`, pcPromoUrl: `${PC}/pokemon-promo/n's-zekrom-pokemon-center-31`, notes: "Largest Mega-era set so far. Mega Gengar ex SIR and Pikachu ex SIR are top chases." },
   { year: 2026, monthNum: 3,  month: "March",     setName: "Perfect Order",         setId: "me3",       promoName: "Tyrunt",                  promoNum: "MEP070",  promoSetId: "mep",   promoCardNum: "70",  pcEtbUrl: `${PC}/pokemon-perfect-order/elite-trainer-box-pokemon-center`, pcPromoUrl: `${PC}/pokemon-promo/tyrunt-pokemon-center-70`, notes: "Tyrunt PC promo." },
+  { year: 2026, monthNum: 5,  month: "May",       setName: "Chaos Rising",          setId: "me4",       promoName: "Fennekin",                promoNum: "MEP080",  promoSetId: "mep",   promoCardNum: "80",  pcEtbUrl: `${PC}/pokemon-chaos-rising/elite-trainer-box-pokemon-center`, pcPromoUrl: `${PC}/pokemon-promo/fennekin-pokemon-center-80`, notes: "Mega Greninja ex is the top chase." },
+  { year: 2026, monthNum: 7,  month: "July",      setName: "Pitch Black",           setId: "me5",       promoName: "Zarude",                  promoNum: "MEP088",  promoSetId: "mep",   promoCardNum: "88",  pcEtbUrl: `${PC}/pokemon-pitch-black/elite-trainer-box-pokemon-center`, pcPromoUrl: `${PC}/pokemon-promo/zarude-pokemon-center-88`, notes: "Mega Darkrai ex is the top chase." },
+  // PriceCharting has not catalogued the Pokemon Center-stamped Nidorina yet
+  // (set released 2026-09-16). Only the unstamped in-set Nidorina #88 exists,
+  // which is a different card, so pcPromoUrl stays empty and the promo price
+  // reads as "—" rather than showing the wrong card's value. Fill it in once
+  // PC lists pokemon-promo/nidorina-pokemon-center-101.
+  { year: 2026, monthNum: 9,  month: "September", setName: "30th Celebration",      setId: "me55",      promoName: "Nidorina",                promoNum: "MEP101",  promoSetId: "mep",   promoCardNum: "101", pcEtbUrl: `${PC}/pokemon-30th-celebration/elite-trainer-box-pokemon-center`, pcPromoUrl: "", notes: "30th anniversary set. Nidorina promo (Pokedex #0030). Mew ex and Mewtwo ex are top chases." },
 ];
 
 export const ETBS: ETB[] = RAW.map((e) => ({ ...e, era: eraOf(e.setId) }));

@@ -101,9 +101,15 @@ export async function getTrackedEtbs(): Promise<ETB[]> {
   const known = new Set(
     ETBS.map((e) => `${e.setId}:${e.promoNum || "base"}`),
   );
+  // A discovered entry is stored with an empty promoNum, so once a set is
+  // hand-curated its keys no longer match ("me4:base" vs "me4:MEP080") and the
+  // row would render twice. Curated data always supersedes the placeholder, so
+  // drop any discovered entry whose set is already in ETBS.
+  const curatedSetIds = new Set(ETBS.map((e) => e.setId));
   for (const d of discovered) {
     const key = `${d.setId}:${d.promoNum || "base"}`;
-    if (!known.has(key)) all.push(d);
+    if (known.has(key) || curatedSetIds.has(d.setId)) continue;
+    all.push(d);
   }
   return all;
 }

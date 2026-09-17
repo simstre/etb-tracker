@@ -54,7 +54,14 @@ export async function readDiscoveredWithStatus(): Promise<
     const { blobs } = await list({ prefix: BLOB_PATHNAME, limit: 1 });
     const match = blobs.find((b) => b.pathname === BLOB_PATHNAME);
     if (!match) return { ...empty, status: { ok: false, reason: "empty" } };
-    const r = await fetch(match.downloadUrl ?? match.url, {
+    // Blob URLs are served with `max-age=2592000` (30 days) and the pathname is
+    // stable across overwrites, so a plain fetch can return a month-old copy
+    // and silently hide a newly-discovered ETB. list() is an API call rather
+    // than a CDN read, so its uploadedAt is always current — key the URL on it
+    // to force a fresh fetch on every write while staying cacheable in between.
+    const fresh = new URL(match.downloadUrl ?? match.url);
+    fresh.searchParams.set("v", String(new Date(match.uploadedAt).getTime()));
+    const r = await fetch(fresh, {
       next: { revalidate: 21600, tags: [PC_CACHE_TAG] },
     });
     if (!r.ok) {
