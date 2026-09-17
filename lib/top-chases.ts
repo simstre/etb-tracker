@@ -84,6 +84,19 @@ function marketPrice(card: TcgCard): number | null {
   return best;
 }
 
+/**
+ * Pull the PriceCharting console slug out of an ETB product URL, e.g.
+ * ".../game/pokemon-chaos-rising/elite-trainer-box-pokemon-center" ->
+ * "pokemon-chaos-rising". Used as the fallback for sets missing from
+ * PC_SET_SLUGS, which is hand-maintained and by definition never covers a
+ * newly auto-discovered set. The ETB URL is already proven good — discovery
+ * only persists a URL that returned a real sealed price.
+ */
+export function pcSetSlugFromUrl(url: string): string | null {
+  const m = url.match(/pricecharting\.com\/game\/([^/?#]+)/);
+  return m ? m[1] : null;
+}
+
 // Map our internal setIds to the PriceCharting console set slug.
 // PC uses different naming conventions for some sets.
 export const PC_SET_SLUGS: Record<string, string> = {
@@ -140,7 +153,10 @@ async function fetchSetCards(setId: string): Promise<TcgCard[]> {
   return out;
 }
 
-export async function getTopChases(setId: string): Promise<TopChase[]> {
+export async function getTopChases(
+  setId: string,
+  fallbackPcSlug?: string | null,
+): Promise<TopChase[]> {
   const ids = [setId, ...(SUBSETS[setId] ?? [])];
   const groups = await Promise.all(ids.map(fetchSetCards));
   const all = groups.flat();
@@ -176,7 +192,7 @@ export async function getTopChases(setId: string): Promise<TopChase[]> {
 
   // Fallback: pokemontcg.io has no priced cards yet (very recent sets).
   // Scrape PriceCharting's set page for top 5 by ungraded price.
-  const slug = PC_SET_SLUGS[setId];
+  const slug = PC_SET_SLUGS[setId] ?? fallbackPcSlug;
   if (slug) {
     const { getTopChasesFromPC } = await import("./top-chases-pc");
     return getTopChasesFromPC(slug);

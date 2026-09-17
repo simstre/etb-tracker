@@ -4,7 +4,7 @@ import {
   scrapePriceCharting,
   type PCPrices,
 } from "./pricecharting";
-import { getTopChases, type TopChase } from "./top-chases";
+import { getTopChases, pcSetSlugFromUrl, type TopChase } from "./top-chases";
 import { readDiscovered } from "./discovered-etbs";
 import snapshotData from "../data/snapshot.json";
 
@@ -64,7 +64,9 @@ async function fetchOne(etb: ETB): Promise<EtbWithPrices> {
       etb.pcPromoUrl
         ? scrapePriceCharting(etb.pcPromoUrl)
         : Promise.resolve({} as PCPrices),
-      getTopChases(etb.setId).catch(() => [] as TopChase[]),
+      getTopChases(etb.setId, pcSetSlugFromUrl(etb.pcEtbUrl)).catch(
+        () => [] as TopChase[],
+      ),
     ]);
   const topChasesTotal = topChases.length
     ? topChases.reduce((s, c) => s + c.market, 0)
