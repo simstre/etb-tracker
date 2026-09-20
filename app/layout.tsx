@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "ETB Tracker — Pokémon Center Elite Trainer Box prices",
   description:
-    "Track every Pokémon Center Elite Trainer Box from Sword & Shield through the Mega era. Live sealed-box and promo-card prices from PriceCharting, plus a one-click check for newly released ETBs.",
+    "Track every Pokémon Center Elite Trainer Box from Sword & Shield through the Mega era. Live sealed-box, promo-card, and top-5 chase prices from PriceCharting, plus a one-click check for newly released ETBs.",
 };
 
 export default function RootLayout({

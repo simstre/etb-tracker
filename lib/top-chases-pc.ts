@@ -74,7 +74,12 @@ const STAMPED_FRAGMENTS = [
 ];
 
 function isCardSlug(slug: string): boolean {
-  if (!/-\d{1,4}$/.test(slug)) return false;
+  // Card numbers are not always plain digits: the subsets that hold a set's
+  // real chases number theirs SV107 (Shiny Vault), TG13 (Trainer Gallery),
+  // GG44 (Galarian Gallery). Requiring digits alone dropped every one of them,
+  // which is why PriceCharting's Shining Fates top chase came out at $11
+  // instead of the $125 Charizard VMAX SV107.
+  if (!/-(?:[a-z]{1,3})?\d{1,4}$/.test(slug)) return false;
   for (const frag of NON_CARD_FRAGMENTS) {
     if (slug.includes(frag)) return false;
   }
@@ -175,11 +180,13 @@ export async function getTopChasesFromPC(
   }
 
   return top.map((r, i): TopChase => {
-    const numMatch = r.slug.match(/-(\d{1,4})$/);
+    // Keep the subset letters ("SV107", "TG13"), since the bare digits are not
+    // unique within a set - the main set has its own #107.
+    const numMatch = r.slug.match(/-([a-z]{1,3})?(\d{1,4})$/);
     return {
       id: `${setSlug}/${r.slug}`,
       name: r.name,
-      number: numMatch ? numMatch[1] : "",
+      number: numMatch ? `${(numMatch[1] ?? "").toUpperCase()}${numMatch[2]}` : "",
       rarity: "",
       image: images[i],
       market: r.price,

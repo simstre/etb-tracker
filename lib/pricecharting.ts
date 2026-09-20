@@ -40,7 +40,7 @@ export type ScrapeOptions = {
   revalidate?: number | false;
 };
 
-export const PC_CACHE_TAG = "pc-prices-v5";
+export const PC_CACHE_TAG = "pc-prices-v6";
 
 export async function scrapePriceCharting(
   url: string,
@@ -114,16 +114,27 @@ function parseHtml(html: string): PCPrices {
   const $ = cheerio.load(html);
   const out: PCPrices = {};
 
+  // Every Pokemon product on PriceCharting - sealed boxes included - uses the
+  // graded card layout: Ungraded | Grade 7 | Grade 8 | Grade 9 | Grade 9.5 |
+  // PSA 10, backed by the ids below. The old Loose/CIB/New reading came from
+  // PriceCharting's video-game layout, which these pages never use, so
+  // "newSealed" was really Grade 8 and "cardPsa10" was a Grade 8 price.
   out.loose = parsePriceFromContainer($, "used_price");
-  out.cib = parsePriceFromContainer($, "cib_price");
+  out.cib =
+    parsePriceFromContainer($, "cib_price") ??
+    parsePriceFromContainer($, "complete_price");
   out.newSealed = parsePriceFromContainer($, "new_price");
 
-  if (out.newSealed && out.newSealed > 0) out.sealedValue = out.newSealed;
+  // A sealed ETB's price is the Ungraded column; the grade columns, when a
+  // graded box has ever sold, describe a different product from the one we
+  // track. Prefer Ungraded and only fall back if the page has no value there.
+  if (out.loose && out.loose > 0) out.sealedValue = out.loose;
   else if (out.cib && out.cib > 0) out.sealedValue = out.cib;
-  else if (out.loose && out.loose > 0) out.sealedValue = out.loose;
+  else if (out.newSealed && out.newSealed > 0) out.sealedValue = out.newSealed;
 
   if (out.loose && out.loose > 0) out.cardRaw = out.loose;
-  if (out.newSealed && out.newSealed > 0) out.cardPsa10 = out.newSealed;
+  const psa10 = parsePriceFromContainer($, "manual_only_price");
+  if (psa10 && psa10 > 0) out.cardPsa10 = psa10;
 
   const hasPriceMarker = !!($("#used_price").length || $("#new_price").length);
   if (hasPriceMarker) {
@@ -137,6 +148,13 @@ function parseHtml(html: string): PCPrices {
   return out;
 }
 
+/**
+ * Word-order variants of the same Pokemon Center product only. Dropping
+ * "-pokemon-center" is deliberately not among them: on PriceCharting the bare
+ * "elite-trainer-box" slug is the regular retail box, a genuinely different
+ * product. Substituting it priced Mega Evolution at the retail box's $123.80
+ * instead of the Pokemon Center box's $204.40 whenever the real URL hit a 429.
+ */
 export function alternateEtbUrls(url: string): string[] {
   const out: string[] = [];
   if (url.includes("elite-trainer-box-pokemon-center")) {
@@ -146,8 +164,6 @@ export function alternateEtbUrls(url: string): string[] {
         "pokemon-center-elite-trainer-box",
       ),
     );
-    // Some ME-era variants drop "-pokemon-center" entirely
-    out.push(url.replace("elite-trainer-box-pokemon-center", "elite-trainer-box"));
   }
   if (url.includes("pokemon-center-elite-trainer-box")) {
     out.push(
@@ -156,7 +172,6 @@ export function alternateEtbUrls(url: string): string[] {
         "elite-trainer-box-pokemon-center",
       ),
     );
-    out.push(url.replace("pokemon-center-elite-trainer-box", "elite-trainer-box"));
   }
   return out;
 }

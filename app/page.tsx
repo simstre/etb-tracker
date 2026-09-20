@@ -61,10 +61,10 @@ export default async function Home() {
             Tracking <span className="text-foreground font-semibold">{totalEtbs}</span> ETBs
             across <span className="text-foreground font-semibold">{totalSets}</span> sets, from
             Shining Fates through the Mega Evolution era. Sealed-box, promo, and top-5 chase
-            prices are scraped live from PriceCharting and TCGPlayer (via pokemontcg.io),
-            converted to <span className="text-foreground">CAD</span> at the live USD/CAD rate
-            from open.er-api.com — no estimates, no fabrication. Refreshed automatically once
-            a day.
+            prices are scraped live from PriceCharting — one source throughout, so every row
+            is comparable — and converted to <span className="text-foreground">CAD</span> at
+            the live USD/CAD rate from open.er-api.com. No estimates, no fabrication.
+            Refreshed automatically once a day.
           </p>
         </header>
 
@@ -73,7 +73,7 @@ export default async function Home() {
         </Suspense>
 
         <footer className="pt-10 border-t border-border text-xs text-muted">
-          Data: pokemontcg.io · PriceCharting. Not affiliated with The Pokémon Company.
+          Prices: PriceCharting · Set data: pokemontcg.io. Not affiliated with The Pokémon Company.
         </footer>
       </div>
     </main>

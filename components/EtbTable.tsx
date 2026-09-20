@@ -299,12 +299,7 @@ export function EtbTable({
                           ) : (
                             <div className="space-y-2">
                               <p className="text-xs uppercase tracking-wider text-muted">
-                                Top 5 chase cards ·{" "}
-                                {row.topChases[0]?.source === "pricecharting" ? (
-                                  <span className="text-amber-300">PriceCharting ungraded (TCGPlayer prices not yet listed for this set)</span>
-                                ) : (
-                                  <span>TCGPlayer market</span>
-                                )}
+                                Top 5 chase cards · ungraded market price
                               </p>
                               <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
                                 {row.topChases.map((c, idx) => {
@@ -326,9 +321,11 @@ export function EtbTable({
                                         <div className="text-xs text-foreground truncate">
                                           {c.name}
                                         </div>
-                                        <div className="text-[10px] text-muted truncate">
-                                          {c.rarity}
-                                        </div>
+                                        {c.rarity && (
+                                          <div className="text-[10px] text-muted truncate">
+                                            {c.rarity}
+                                          </div>
+                                        )}
                                         <div className="text-sm font-semibold text-accent tabular-nums">
                                           {fmtCad(c.market, cadRate)}
                                         </div>

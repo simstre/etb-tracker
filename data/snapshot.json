@@ -1,68 +1,68 @@
 {
-  "generatedAt": "2026-09-17T21:18:30.607Z",
+  "generatedAt": "2026-09-20T20:51:28.078Z",
   "entries": [
     {
       "id": "swsh45:SWSH087",
       "setId": "swsh45",
       "promoNum": "SWSH087",
-      "sealed": 144.61,
-      "promoRaw": 5.78,
-      "promoPsa10": 13.96,
+      "sealed": 143.43,
+      "promoRaw": 5.18,
+      "promoPsa10": 75,
       "etbImage": "https://storage.googleapis.com/images.pricecharting.com/9fb00f8d0ad45c051f95bdd1f7d51d8c6b43dfd5855a8b5709cff83eeae2be3e/240.jpg",
       "promoImage": "https://storage.googleapis.com/images.pricecharting.com/9a9dddab77d6bfeed0fbfbb6e77a7b978f3b4e26214214efb834b45f80011954/240.jpg",
       "topChases": [
         {
-          "id": "swsh45sv-SV107",
-          "name": "Charizard VMAX",
+          "id": "pokemon-shining-fates/charizard-vmax-sv107",
+          "name": "Charizard VMAX #SV107",
           "number": "SV107",
-          "rarity": "Rare Holo VMAX",
-          "image": "https://images.pokemontcg.io/swsh45sv/SV107_hires.png",
-          "market": 136.28,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/88e180870f682b6b3689617d8171200cb35af8f183a8bf68507f34c1c3d0862a/240.jpg",
+          "market": 125,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-shining-fates/charizard-vmax-sv107"
         },
         {
-          "id": "swsh45sv-SV044",
-          "name": "Morpeko",
-          "number": "SV044",
-          "rarity": "Rare Shiny",
-          "image": "https://images.pokemontcg.io/swsh45sv/SV044_hires.png",
-          "market": 20.79,
-          "source": "tcgplayer",
-          "sourceUrl": null
-        },
-        {
-          "id": "swsh45sv-SV039",
-          "name": "Yamper",
+          "id": "pokemon-shining-fates/yamper-sv039",
+          "name": "Yamper #SV039",
           "number": "SV039",
-          "rarity": "Rare Shiny",
-          "image": "https://images.pokemontcg.io/swsh45sv/SV039_hires.png",
-          "market": 18,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/19938a424c6223a95cf9d16442b625e7051bf886bb103e6d37c4360de747ebf2/240.jpg",
+          "market": 17.63,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-shining-fates/yamper-sv039"
         },
         {
-          "id": "swsh45sv-SV022",
-          "name": "Suicune",
+          "id": "pokemon-shining-fates/morpeko-sv044",
+          "name": "Morpeko #SV044",
+          "number": "SV044",
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/c140c223b9b1c864453eb74806b1504d6877bd8ec7431847de074fd423f613d1/240.jpg",
+          "market": 16.44,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-shining-fates/morpeko-sv044"
+        },
+        {
+          "id": "pokemon-shining-fates/suicune-sv022",
+          "name": "Suicune #SV022",
           "number": "SV022",
-          "rarity": "Rare Shiny",
-          "image": "https://images.pokemontcg.io/swsh45sv/SV022_hires.png",
-          "market": 17.37,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/35afd3632bfd2265c9eff68428a2d8c42b822491b08e7b66ea3378645534ea24/240.jpg",
+          "market": 16.4,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-shining-fates/suicune-sv022"
         },
         {
-          "id": "swsh45sv-SV047",
-          "name": "Galarian Ponyta",
+          "id": "pokemon-shining-fates/galarian-ponyta-sv047",
+          "name": "Galarian Ponyta #SV047",
           "number": "SV047",
-          "rarity": "Rare Shiny",
-          "image": "https://images.pokemontcg.io/swsh45sv/SV047_hires.png",
-          "market": 16.87,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/1f1726132fee8a8a6c32c97e74a5b931a5be9d49b0f5491efaf805021966d69d/240.jpg",
+          "market": 16.24,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-shining-fates/galarian-ponyta-sv047"
         }
       ],
-      "topChasesTotal": 209.31
+      "topChasesTotal": 191.71
     },
     {
       "id": "swsh5:SWSH079",
@@ -80,7 +80,7 @@
           "number": "155",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/bf016cb852f76eb1ac56b56f5b108abea2ce18a270d43928f491206e3a5e7152/240.jpg",
-          "market": 228.5,
+          "market": 215,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-battle-styles/tyranitar-v-155"
         },
@@ -100,7 +100,7 @@
           "number": "146",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/31aebc98050b5cf9799df437c4614f1fa64fdd2a5524e5e8be1d241a1dc6eb62/240.jpg",
-          "market": 57.68,
+          "market": 60,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-battle-styles/empoleon-v-146"
         },
@@ -125,70 +125,70 @@
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-battle-styles/single-strike-urshifu-vmax-168"
         }
       ],
-      "topChasesTotal": 424.87
+      "topChasesTotal": 413.69
     },
     {
       "id": "swsh6:SWSH131",
       "setId": "swsh6",
       "promoNum": "SWSH131",
-      "sealed": 183.74,
+      "sealed": 180,
       "promoRaw": null,
       "promoPsa10": null,
       "etbImage": "https://storage.googleapis.com/images.pricecharting.com/2720ada594162d8205ee0b8c32b07526128839801293deddb6fdbd29bb68c314/240.jpg",
       "promoImage": null,
       "topChases": [
         {
-          "id": "swsh6-201",
-          "name": "Blaziken VMAX",
+          "id": "pokemon-chilling-reign/blaziken-vmax-201",
+          "name": "Blaziken VMAX #201",
           "number": "201",
-          "rarity": "Rare Rainbow",
-          "image": "https://images.pokemontcg.io/swsh6/201_hires.png",
-          "market": 383.4,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/138e26a3cadfe894ab2bb7539c71e91402ef5e07761c3788c64e13dfce94b60e/240.jpg",
+          "market": 310,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-chilling-reign/blaziken-vmax-201"
         },
         {
-          "id": "swsh6-177",
-          "name": "Galarian Moltres V",
+          "id": "pokemon-chilling-reign/galarian-moltres-v-177",
+          "name": "Galarian Moltres V #177",
           "number": "177",
-          "rarity": "Rare Ultra",
-          "image": "https://images.pokemontcg.io/swsh6/177_hires.png",
-          "market": 235.22,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/b0946df58642866426d70b2ebf104a6e55b63dc54dc5885bf5a3ce57e8b5da51/240.jpg",
+          "market": 193,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-chilling-reign/galarian-moltres-v-177"
         },
         {
-          "id": "swsh6-224",
-          "name": "Snorlax",
+          "id": "pokemon-chilling-reign/snorlax-224",
+          "name": "Snorlax #224",
           "number": "224",
-          "rarity": "Rare Secret",
-          "image": "https://images.pokemontcg.io/swsh6/224_hires.png",
-          "market": 138.57,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/ea9e8e420d713abc37a096fc3f8e45a83d00926bd81b3c13d0447e74127ab16f/240.jpg",
+          "market": 128.42,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-chilling-reign/snorlax-224"
         },
         {
-          "id": "swsh6-179",
-          "name": "Galarian Slowking V",
+          "id": "pokemon-chilling-reign/galarian-slowking-v-179",
+          "name": "Galarian Slowking V #179",
           "number": "179",
-          "rarity": "Rare Ultra",
-          "image": "https://images.pokemontcg.io/swsh6/179_hires.png",
-          "market": 114.38,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/f363c3297722ac2fa000763f5e19240811dbccd7ad76bbc2021474b53be7b4eb/240.jpg",
+          "market": 104.99,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-chilling-reign/galarian-slowking-v-179"
         },
         {
-          "id": "swsh6-166",
-          "name": "Zeraora V",
+          "id": "pokemon-chilling-reign/zeraora-v-166",
+          "name": "Zeraora V #166",
           "number": "166",
-          "rarity": "Rare Ultra",
-          "image": "https://images.pokemontcg.io/swsh6/166_hires.png",
-          "market": 93.24,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/corrzib2foomvko5o2fq/240.jpg",
+          "market": 84,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-chilling-reign/zeraora-v-166"
         }
       ],
-      "topChasesTotal": 964.8100000000001
+      "topChasesTotal": 820.41
     },
     {
       "id": "swsh7:SWSH172",
@@ -206,7 +206,7 @@
           "number": "215",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/tbzk7g5d36blsr7e/240.jpg",
-          "market": 2137.5,
+          "market": 2150,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-evolving-skies/umbreon-vmax-215"
         },
@@ -216,7 +216,7 @@
           "number": "218",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/vmrc3cns3gy6ubqi/240.jpg",
-          "market": 1150,
+          "market": 1100,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-evolving-skies/rayquaza-vmax-218"
         },
@@ -226,7 +226,7 @@
           "number": "194",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/d7kgjbt7me2vlplo/240.jpg",
-          "market": 465,
+          "market": 468.98,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-evolving-skies/rayquaza-v-194"
         },
@@ -236,45 +236,85 @@
           "number": "192",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/3kx37ivfwt7hnssf/240.jpg",
-          "market": 389.17,
+          "market": 459.75,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-evolving-skies/dragonite-v-192"
         },
         {
-          "id": "pokemon-evolving-skies/umbreon-v-189",
-          "name": "Umbreon V #189",
-          "number": "189",
+          "id": "pokemon-evolving-skies/leafeon-vmax-205",
+          "name": "Leafeon VMAX #205",
+          "number": "205",
           "rarity": "",
-          "image": "https://storage.googleapis.com/images.pricecharting.com/corr4c4yiu3g4tjjgxem/240.jpg",
-          "market": 349.1,
+          "image": "https://storage.googleapis.com/images.pricecharting.com/thgt4btpd6t2tjmc/240.jpg",
+          "market": 335.87,
           "source": "pricecharting",
-          "sourceUrl": "https://www.pricecharting.com/game/pokemon-evolving-skies/umbreon-v-189"
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-evolving-skies/leafeon-vmax-205"
         }
       ],
-      "topChasesTotal": 4490.77
+      "topChasesTotal": 4514.599999999999
     },
     {
       "id": "cel25:SWSH144",
       "setId": "cel25",
       "promoNum": "SWSH144",
       "sealed": 485.99,
-      "promoRaw": 26.57,
-      "promoPsa10": 37.71,
+      "promoRaw": 30,
+      "promoPsa10": 1927.52,
       "etbImage": "https://storage.googleapis.com/images.pricecharting.com/3w7zbuuygqkw63mr/240.jpg",
       "promoImage": "https://storage.googleapis.com/images.pricecharting.com/2hgbbsmrpjsntyef/240.jpg",
       "topChases": [
         {
-          "id": "cel25-24",
-          "name": "Professor's Research (Professor Oak)",
-          "number": "24",
-          "rarity": "Rare Ultra",
-          "image": "https://images.pokemontcg.io/cel25/24_hires.png",
-          "market": 1.03,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "id": "pokemon-celebrations/charizard-4",
+          "name": "Charizard #4",
+          "number": "4",
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/5ad311592fd60609fcbaa4f67b84c8ec8d6d9d84b3f6b705a3c57b6ef284c915/240.jpg",
+          "market": 158.92,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-celebrations/charizard-4"
+        },
+        {
+          "id": "pokemon-celebrations/umbreon-17",
+          "name": "Umbreon #17",
+          "number": "17",
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/7tk27jo6bpvrcy5t/240.jpg",
+          "market": 89.49,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-celebrations/umbreon-17"
+        },
+        {
+          "id": "pokemon-celebrations/mew-25",
+          "name": "Mew #25",
+          "number": "25",
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/b780aa753ced993de8d6e319f2bf4ab18fff928947b40194d24224feaa77d2d8/240.jpg",
+          "market": 60,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-celebrations/mew-25"
+        },
+        {
+          "id": "pokemon-celebrations/m-rayquaza-ex-76",
+          "name": "M Rayquaza EX #76",
+          "number": "76",
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/5b7b54070f90f59a374627ef68b0a800918f027bb6086183bbe1a278ada09ae1/240.jpg",
+          "market": 41,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-celebrations/m-rayquaza-ex-76"
+        },
+        {
+          "id": "pokemon-celebrations/shining-magikarp-66",
+          "name": "Shining Magikarp #66",
+          "number": "66",
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/umo4hkus3xd2roxl/240.jpg",
+          "market": 36.99,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-celebrations/shining-magikarp-66"
         }
       ],
-      "topChasesTotal": 1.03
+      "topChasesTotal": 386.4
     },
     {
       "id": "swsh8:SWSH215",
@@ -292,7 +332,7 @@
           "number": "271",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/0a567e2f780e0f3a3bda3e169707d54bb8fbdf154a00f44fe77e6e598261a4bb/240.jpg",
-          "market": 904.5,
+          "market": 916.42,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-fusion-strike/gengar-vmax-271"
         },
@@ -302,7 +342,7 @@
           "number": "270",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/a30fe7ef690c7b1820f764fee206c0ec6093fb6f0206e5d57e974ee0ac330df5/240.jpg",
-          "market": 292.67,
+          "market": 300,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-fusion-strike/espeon-vmax-270"
         },
@@ -317,16 +357,6 @@
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-fusion-strike/mew-vmax-269"
         },
         {
-          "id": "pokemon-fusion-strike/mew-v-251",
-          "name": "Mew V #251",
-          "number": "251",
-          "rarity": "",
-          "image": "https://storage.googleapis.com/images.pricecharting.com/596687886db9a8790aacad6c3bb00ac4c98c650b2774cb8cc449c1374ee3b7a0/240.jpg",
-          "market": 96.5,
-          "source": "pricecharting",
-          "sourceUrl": "https://www.pricecharting.com/game/pokemon-fusion-strike/mew-v-251"
-        },
-        {
           "id": "pokemon-fusion-strike/mew-vmax-268",
           "name": "Mew VMAX #268",
           "number": "268",
@@ -335,17 +365,27 @@
           "market": 93.25,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-fusion-strike/mew-vmax-268"
+        },
+        {
+          "id": "pokemon-fusion-strike/mew-v-251",
+          "name": "Mew V #251",
+          "number": "251",
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/596687886db9a8790aacad6c3bb00ac4c98c650b2774cb8cc449c1374ee3b7a0/240.jpg",
+          "market": 92.49,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-fusion-strike/mew-v-251"
         }
       ],
-      "topChasesTotal": 1576.5900000000001
+      "topChasesTotal": 1591.8300000000002
     },
     {
       "id": "swsh9:SWSH204",
       "setId": "swsh9",
       "promoNum": "SWSH204",
-      "sealed": 235.34,
-      "promoRaw": 26.98,
-      "promoPsa10": 27.25,
+      "sealed": 225.02,
+      "promoRaw": 26.99,
+      "promoPsa10": 719.63,
       "etbImage": "https://storage.googleapis.com/images.pricecharting.com/oynkgxkgxrfepqj6/240.jpg",
       "promoImage": "https://storage.googleapis.com/images.pricecharting.com/bf8d52f18bae89aebbe938a4ccefe99dec3ed924369cd6534658877c7372d3c4/240.jpg",
       "topChases": [
@@ -355,7 +395,39 @@
           "number": "154",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/biyau2qnroq2esqp/240.jpg",
-          "market": 282
+          "market": 267.5,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-brilliant-stars/charizard-v-154"
+        },
+        {
+          "id": "pokemon-brilliant-stars/umbreon-vmax-tg23",
+          "name": "Umbreon VMAX #TG23",
+          "number": "TG23",
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/n6v4hosu7a2oma7m/240.jpg",
+          "market": 92.78,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-brilliant-stars/umbreon-vmax-tg23"
+        },
+        {
+          "id": "pokemon-brilliant-stars/mimikyu-v-tg16",
+          "name": "Mimikyu V #TG16",
+          "number": "TG16",
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/0b3eef3fcd68c0822ed447cccc715b1b3149c760ef1d8928a6726b52c59b4b49/240.jpg",
+          "market": 82.72,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-brilliant-stars/mimikyu-v-tg16"
+        },
+        {
+          "id": "pokemon-brilliant-stars/sylveon-v-tg14",
+          "name": "Sylveon V #TG14",
+          "number": "TG14",
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/1b08ba4dd3b5e0bfd447f724c145c11543ee0d6be443b70d1c20b036d540bd43/240.jpg",
+          "market": 73,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-brilliant-stars/sylveon-v-tg14"
         },
         {
           "id": "pokemon-brilliant-stars/charizard-vstar-174",
@@ -363,105 +435,83 @@
           "number": "174",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/d3d0c648468e7bd1adcb09a3be38e658c5e33b76205fa1cbd7a7c9203ca65ab6/240.jpg",
-          "market": 60.25
-        },
-        {
-          "id": "pokemon-brilliant-stars/arceus-v-166",
-          "name": "Arceus V #166",
-          "number": "166",
-          "rarity": "",
-          "image": "https://storage.googleapis.com/images.pricecharting.com/c6a91a567521f5d2087d9bd0f0d86fbfa7430831c94818dab18e8e3e524e513f/240.jpg",
-          "market": 54.05
-        },
-        {
-          "id": "pokemon-brilliant-stars/charizard-v-153",
-          "name": "Charizard V #153",
-          "number": "153",
-          "rarity": "",
-          "image": "https://storage.googleapis.com/images.pricecharting.com/fa39833561c1c0308b6f788f79ef8804343caedb84b42ef490014780c651b7a5/240.jpg",
-          "market": 32.8
-        },
-        {
-          "id": "pokemon-brilliant-stars/pikachu-v-157",
-          "name": "Pikachu V #157",
-          "number": "157",
-          "rarity": "",
-          "image": "https://storage.googleapis.com/images.pricecharting.com/deb581076cd619478f2ac83fc9ff68818016bc3f6b24b44a6295cca563fe075c/240.jpg",
-          "market": 24.95
+          "market": 71.24,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-brilliant-stars/charizard-vstar-174"
         }
       ],
-      "topChasesTotal": 454.05
+      "topChasesTotal": 587.24
     },
     {
       "id": "swsh10:SWSH226",
       "setId": "swsh10",
       "promoNum": "SWSH226",
-      "sealed": 202,
+      "sealed": 201.49,
       "promoRaw": null,
       "promoPsa10": null,
       "etbImage": "https://storage.googleapis.com/images.pricecharting.com/7yklra2hn66rphjr/240.jpg",
       "promoImage": null,
       "topChases": [
         {
-          "id": "swsh10tg-TG13",
-          "name": "Starmie V",
+          "id": "pokemon-astral-radiance/machamp-v-172",
+          "name": "Machamp V #172",
+          "number": "172",
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/fe31aedd7666648c8dd1f23ff3967c361bb0f568611b92d33fa5e241ffa5341b/240.jpg",
+          "market": 179.59,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-astral-radiance/machamp-v-172"
+        },
+        {
+          "id": "pokemon-astral-radiance/starmie-v-tg13",
+          "name": "Starmie V #TG13",
           "number": "TG13",
-          "rarity": "Rare Holo V",
-          "image": "https://images.pokemontcg.io/swsh10tg/TG13_hires.png",
-          "market": 121.15,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/83a3c09d0eb5f7b3f439f53a51ed0a2a5883c6f3e6b3c2c8cf0481e73e2b493c/240.jpg",
+          "market": 116.56,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-astral-radiance/starmie-v-tg13"
         },
         {
-          "id": "swsh10tg-TG23",
-          "name": "Garchomp V",
+          "id": "pokemon-astral-radiance/origin-forme-palkia-v-167",
+          "name": "Origin Forme Palkia V #167",
+          "number": "167",
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/3hakaqbdhufqoyvi/240.jpg",
+          "market": 83.54,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-astral-radiance/origin-forme-palkia-v-167"
+        },
+        {
+          "id": "pokemon-astral-radiance/garchomp-v-tg23",
+          "name": "Garchomp V #TG23",
           "number": "TG23",
-          "rarity": "Rare Holo V",
-          "image": "https://images.pokemontcg.io/swsh10tg/TG23_hires.png",
-          "market": 78.27,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/f792002317aae28d95f949ce043e0050b624a87b2b2c50fee732cfb60a2c8e74/240.jpg",
+          "market": 74.05,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-astral-radiance/garchomp-v-tg23"
         },
         {
-          "id": "swsh10tg-TG21",
-          "name": "Zacian V",
-          "number": "TG21",
-          "rarity": "Rare Holo V",
-          "image": "https://images.pokemontcg.io/swsh10tg/TG21_hires.png",
-          "market": 20.93,
-          "source": "tcgplayer",
-          "sourceUrl": null
-        },
-        {
-          "id": "swsh10tg-TG20",
-          "name": "Galarian Moltres V",
-          "number": "TG20",
-          "rarity": "Rare Holo V",
-          "image": "https://images.pokemontcg.io/swsh10tg/TG20_hires.png",
-          "market": 19.29,
-          "source": "tcgplayer",
-          "sourceUrl": null
-        },
-        {
-          "id": "swsh10tg-TG16",
-          "name": "Galarian Articuno V",
-          "number": "TG16",
-          "rarity": "Rare Holo V",
-          "image": "https://images.pokemontcg.io/swsh10tg/TG16_hires.png",
-          "market": 17.46,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "id": "pokemon-astral-radiance/beedrill-v-161",
+          "name": "Beedrill V #161",
+          "number": "161",
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/a340b29ba9304546ff670fe99b490626820c9c5997a55991b0c5daea90d0e026/240.jpg",
+          "market": 69.5,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-astral-radiance/beedrill-v-161"
         }
       ],
-      "topChasesTotal": 257.1
+      "topChasesTotal": 523.24
     },
     {
       "id": "pgo:SWSH229",
       "setId": "pgo",
       "promoNum": "SWSH229",
-      "sealed": 158.99,
-      "promoRaw": 9.74,
-      "promoPsa10": 17.82,
+      "sealed": 166.42,
+      "promoRaw": 9.86,
+      "promoPsa10": 134.5,
       "etbImage": "https://storage.googleapis.com/images.pricecharting.com/db71877957615a2711de48b663156b2ff401331e5d32cca535eafa0a1a217ac9/240.jpg",
       "promoImage": "https://storage.googleapis.com/images.pricecharting.com/cb011b7d7d16867b2700461030dfec2b7c9b6855d19b34f36d87d232137c8e8f/240.jpg",
       "topChases": [
@@ -471,7 +521,9 @@
           "number": "72",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/f795964ab3c862c1e995af64ef74f4da3b9034fd73c7b377d94a7e817e364e19/240.jpg",
-          "market": 55.79
+          "market": 54,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-go/mewtwo-v-72"
         },
         {
           "id": "pokemon-go/mewtwo-vstar-79",
@@ -479,7 +531,9 @@
           "number": "79",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/a472f70829a6b53e6a16de63e71ceacbd2caae6f650e53f779948e95fc044806/240.jpg",
-          "market": 49.1
+          "market": 47.5,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-go/mewtwo-vstar-79"
         },
         {
           "id": "pokemon-go/dragonite-vstar-81",
@@ -487,7 +541,9 @@
           "number": "81",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/026973fc03e4386dd4ae4835c3cff078de5220989abfc401e44fcba2edddb3c0/240.jpg",
-          "market": 40
+          "market": 39.44,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-go/dragonite-vstar-81"
         },
         {
           "id": "pokemon-go/mewtwo-vstar-86",
@@ -495,7 +551,9 @@
           "number": "86",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/c3312aaa00bdbbe249e93f3bfb631fca3e826a0c1e356b28024b6b5817c8d9ca/240.jpg",
-          "market": 27.66
+          "market": 33.85,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-go/mewtwo-vstar-86"
         },
         {
           "id": "pokemon-go/radiant-charizard-11",
@@ -503,10 +561,12 @@
           "number": "11",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/7heof4sfxf2wnd5y/240.jpg",
-          "market": 19.99
+          "market": 19.99,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-go/radiant-charizard-11"
         }
       ],
-      "topChasesTotal": 192.54
+      "topChasesTotal": 194.78
     },
     {
       "id": "swsh11:SWSH265",
@@ -519,47 +579,57 @@
       "promoImage": null,
       "topChases": [
         {
-          "id": "swsh11-186",
-          "name": "Giratina V",
-          "number": "186",
-          "rarity": "Rare Ultra",
-          "image": "https://images.pokemontcg.io/swsh11/186_hires.png",
-          "market": 838.53
-        },
-        {
-          "id": "swsh11-180",
-          "name": "Aerodactyl V",
+          "id": "pokemon-lost-origin/aerodactyl-v-180",
+          "name": "Aerodactyl V #180",
           "number": "180",
-          "rarity": "Rare Ultra",
-          "image": "https://images.pokemontcg.io/swsh11/180_hires.png",
-          "market": 209.4
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/137e68771df6acdb936a6f358404b888be1d69dcf39a2904855dbf1f134d645d/240.jpg",
+          "market": 189.83,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-lost-origin/aerodactyl-v-180"
         },
         {
-          "id": "swsh11-177",
-          "name": "Rotom V",
-          "number": "177",
-          "rarity": "Rare Ultra",
-          "image": "https://images.pokemontcg.io/swsh11/177_hires.png",
-          "market": 31.59
+          "id": "pokemon-lost-origin/pikachu-v-tg16",
+          "name": "Pikachu V #TG16",
+          "number": "TG16",
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/346c3f0c5509dc4875050e26e1cb84f382ac9411a21312e5f8b04ea8d8e91b62/240.jpg",
+          "market": 119.99,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-lost-origin/pikachu-v-tg16"
         },
         {
-          "id": "swsh11-201",
-          "name": "Giratina VSTAR",
-          "number": "201",
-          "rarity": "Rare Rainbow",
-          "image": "https://images.pokemontcg.io/swsh11/201_hires.png",
-          "market": 28.71
+          "id": "pokemon-lost-origin/pikachu-vmax-tg17",
+          "name": "Pikachu VMAX #TG17",
+          "number": "TG17",
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/49f2f1a7f3e0b56b4e774eea792cfd4a41c97f12a2bc417731ddf3c995e12e46/240.jpg",
+          "market": 103.33,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-lost-origin/pikachu-vmax-tg17"
         },
         {
-          "id": "swsh11-184",
-          "name": "Galarian Perrserker V",
-          "number": "184",
-          "rarity": "Rare Ultra",
-          "image": "https://images.pokemontcg.io/swsh11/184_hires.png",
-          "market": 21.71
+          "id": "pokemon-lost-origin/gengar-tg06",
+          "name": "Gengar #TG06",
+          "number": "TG06",
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/ca2f59b3af4069288ece7f7ce8aeb0a94d5a6744652e013dc5c02e72fced9628/240.jpg",
+          "market": 52,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-lost-origin/gengar-tg06"
+        },
+        {
+          "id": "pokemon-lost-origin/pikachu-tg05",
+          "name": "Pikachu #TG05",
+          "number": "TG05",
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/0a3b90cc5a6c3be5fe9091d6ea1cd572ebd5765af32dee917d12b19d26d3e2f6/240.jpg",
+          "market": 45,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-lost-origin/pikachu-tg05"
         }
       ],
-      "topChasesTotal": 1129.94
+      "topChasesTotal": 510.15
     },
     {
       "id": "swsh12:SWSH267",
@@ -577,9 +647,19 @@
           "number": "186",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/qpo3i3mlmiezitvq/240.jpg",
-          "market": 459.72,
+          "market": 468.35,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-silver-tempest/lugia-v-186"
+        },
+        {
+          "id": "pokemon-silver-tempest/rayquaza-vmax-tg20",
+          "name": "Rayquaza VMAX #TG20",
+          "number": "TG20",
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/7uqk7vfjh7x4zx55/240.jpg",
+          "market": 185,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-silver-tempest/rayquaza-vmax-tg20"
         },
         {
           "id": "pokemon-silver-tempest/lugia-vstar-202",
@@ -587,9 +667,19 @@
           "number": "202",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/9791131807a2f898a0f19acc68a0bbc74c0d1b255716370271ae1260c568dcbc/240.jpg",
-          "market": 40.81,
+          "market": 37.25,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-silver-tempest/lugia-vstar-202"
+        },
+        {
+          "id": "pokemon-silver-tempest/blaziken-vmax-tg15",
+          "name": "Blaziken VMAX #TG15",
+          "number": "TG15",
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/9bc589774ce0c2f3a8e007806aa1aa43b438b180cf6645add71a7163e2f40392/240.jpg",
+          "market": 32.35,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-silver-tempest/blaziken-vmax-tg15"
         },
         {
           "id": "pokemon-silver-tempest/unown-v-177",
@@ -597,158 +687,138 @@
           "number": "177",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/dbac38192633848bbebdaacc28049298acbf3edfecf4e7deacf30b09a1748dc3/240.jpg",
-          "market": 29.32,
+          "market": 29.99,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-silver-tempest/unown-v-177"
-        },
-        {
-          "id": "pokemon-silver-tempest/regidrago-v-184",
-          "name": "Regidrago V #184",
-          "number": "184",
-          "rarity": "",
-          "image": "https://storage.googleapis.com/images.pricecharting.com/30c6af40518cabe36e2411f2fe9e3d2d2105e3d4f20fe27dd357b6001bc72484/240.jpg",
-          "market": 27.65,
-          "source": "pricecharting",
-          "sourceUrl": "https://www.pricecharting.com/game/pokemon-silver-tempest/regidrago-v-184"
-        },
-        {
-          "id": "pokemon-silver-tempest/lugia-vstar-211",
-          "name": "Lugia VSTAR #211",
-          "number": "211",
-          "rarity": "",
-          "image": "https://storage.googleapis.com/images.pricecharting.com/4b764a2483959da5d03efc236c51391c8cc54eefb081b0bad14a6017a90ef719/240.jpg",
-          "market": 26.99,
-          "source": "pricecharting",
-          "sourceUrl": "https://www.pricecharting.com/game/pokemon-silver-tempest/lugia-vstar-211"
         }
       ],
-      "topChasesTotal": 584.49
+      "topChasesTotal": 752.94
     },
     {
       "id": "swsh12pt5:SWSH291",
       "setId": "swsh12pt5",
       "promoNum": "SWSH291",
-      "sealed": 534.98,
-      "promoRaw": 13.99,
-      "promoPsa10": 22.5,
+      "sealed": 532.7,
+      "promoRaw": 12.49,
+      "promoPsa10": 130.22,
       "etbImage": "https://storage.googleapis.com/images.pricecharting.com/rs5sf5bhk4gcravf/240.jpg",
       "promoImage": "https://storage.googleapis.com/images.pricecharting.com/bd39c907899cb6784dd0726fccc12dfe65699ea912e269e4471f4b16460efcd4/240.jpg",
       "topChases": [
         {
-          "id": "swsh12pt5-160",
-          "name": "Pikachu",
-          "number": "160",
-          "rarity": "Rare Secret",
-          "image": "https://images.pokemontcg.io/swsh12pt5/160_hires.png",
-          "market": 48.89,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "id": "pokemon-crown-zenith/mewtwo-vstar-gg44",
+          "name": "Mewtwo VSTAR #GG44",
+          "number": "GG44",
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/77076817ef37dde7fd186921d3611c6ad07a6796b9c0667f3096dfd8b9f27a7c/240.jpg",
+          "market": 249.5,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-crown-zenith/mewtwo-vstar-gg44"
         },
         {
-          "id": "swsh12pt5-147",
-          "name": "Elesa's Sparkle",
-          "number": "147",
-          "rarity": "Rare Ultra",
-          "image": "https://images.pokemontcg.io/swsh12pt5/147_hires.png",
-          "market": 15.68,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "id": "pokemon-crown-zenith/arceus-vstar-gg70",
+          "name": "Arceus VSTAR #GG70",
+          "number": "GG70",
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/vd44v53vkugfsviq/240.jpg",
+          "market": 190.4,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-crown-zenith/arceus-vstar-gg70"
         },
         {
-          "id": "swsh12pt5-102",
-          "name": "Rayquaza VMAX",
-          "number": "102",
-          "rarity": "Rare Holo VMAX",
-          "image": "https://images.pokemontcg.io/swsh12pt5/102_hires.png",
-          "market": 14.65,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "id": "pokemon-crown-zenith/origin-forme-palkia-vstar-gg67",
+          "name": "Origin Forme Palkia VSTAR #GG67",
+          "number": "GG67",
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/2ciutjl5faj4gbag/240.jpg",
+          "market": 115,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-crown-zenith/origin-forme-palkia-vstar-gg67"
         },
         {
-          "id": "swsh12pt5-149",
-          "name": "Friends in Sinnoh",
-          "number": "149",
-          "rarity": "Rare Ultra",
-          "image": "https://images.pokemontcg.io/swsh12pt5/149_hires.png",
-          "market": 8.07,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "id": "pokemon-crown-zenith/origin-forme-dialga-vstar-gg68",
+          "name": "Origin Forme Dialga VSTAR #GG68",
+          "number": "GG68",
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/wa6dpxvhklnni2h6/240.jpg",
+          "market": 110,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-crown-zenith/origin-forme-dialga-vstar-gg68"
         },
         {
-          "id": "swsh12pt5-158",
-          "name": "Darkness Energy",
-          "number": "158",
-          "rarity": "Rare Ultra",
-          "image": "https://images.pokemontcg.io/swsh12pt5/158_hires.png",
-          "market": 6.45,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "id": "pokemon-crown-zenith/darkrai-vstar-gg50",
+          "name": "Darkrai VStar #GG50",
+          "number": "GG50",
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/afe3789d98af96480611b633095e4b07903c4e54caabac760217535a0420df80/240.jpg",
+          "market": 90,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-crown-zenith/darkrai-vstar-gg50"
         }
       ],
-      "topChasesTotal": 93.74
+      "topChasesTotal": 754.9
     },
     {
       "id": "sv1:SVP014",
       "setId": "sv1",
       "promoNum": "SVP014",
-      "sealed": 269.74,
+      "sealed": 275.48,
       "promoRaw": 49.98,
-      "promoPsa10": 44,
+      "promoPsa10": 1530,
       "etbImage": "https://storage.googleapis.com/images.pricecharting.com/09c9ca0c979eb8098fc0a09f3c8b36e6f9f7e15ccab90e69c636b6c87274038f/240.jpg",
       "promoImage": "https://storage.googleapis.com/images.pricecharting.com/be1e8149ffbae4e0b4ab8285723d5e2118aadabbc81b9ebcce11b5a1229fb592/240.jpg",
       "topChases": [
         {
-          "id": "sv1-245",
-          "name": "Gardevoir ex",
+          "id": "pokemon-scarlet-&-violet/gardevoir-ex-245",
+          "name": "Gardevoir ex #245",
           "number": "245",
-          "rarity": "Special Illustration Rare",
-          "image": "https://images.pokemontcg.io/sv1/245_hires.png",
-          "market": 70.87,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/f7sdmw5xck7c3kow/240.jpg",
+          "market": 65,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-scarlet-&-violet/gardevoir-ex-245"
         },
         {
-          "id": "sv1-210",
-          "name": "Drowzee",
+          "id": "pokemon-scarlet-&-violet/drowzee-210",
+          "name": "Drowzee #210",
           "number": "210",
-          "rarity": "Illustration Rare",
-          "image": "https://images.pokemontcg.io/sv1/210_hires.png",
-          "market": 60.87,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/cc5my7vypg5qawga/240.jpg",
+          "market": 58.09,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-scarlet-&-violet/drowzee-210"
         },
         {
-          "id": "sv1-211",
-          "name": "Ralts",
+          "id": "pokemon-scarlet-&-violet/ralts-211",
+          "name": "Ralts #211",
           "number": "211",
-          "rarity": "Illustration Rare",
-          "image": "https://images.pokemontcg.io/sv1/211_hires.png",
-          "market": 42.59,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/6yj2bwk37wd7z3oh/240.jpg",
+          "market": 43.3,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-scarlet-&-violet/ralts-211"
         },
         {
-          "id": "sv1-212",
-          "name": "Kirlia",
+          "id": "pokemon-scarlet-&-violet/kirlia-212",
+          "name": "Kirlia #212",
           "number": "212",
-          "rarity": "Illustration Rare",
-          "image": "https://images.pokemontcg.io/sv1/212_hires.png",
-          "market": 41.58,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/jfitqoaakdwmxxin/240.jpg",
+          "market": 39.98,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-scarlet-&-violet/kirlia-212"
         },
         {
-          "id": "sv1-204",
-          "name": "Slowpoke",
+          "id": "pokemon-scarlet-&-violet/slowpoke-204",
+          "name": "Slowpoke #204",
           "number": "204",
-          "rarity": "Illustration Rare",
-          "image": "https://images.pokemontcg.io/sv1/204_hires.png",
-          "market": 39.88,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/pni6ylo5izhs53au/240.jpg",
+          "market": 39.14,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-scarlet-&-violet/slowpoke-204"
         }
       ],
-      "topChasesTotal": 255.79000000000002
+      "topChasesTotal": 245.51
     },
     {
       "id": "sv1:SVP013",
@@ -756,70 +826,70 @@
       "promoNum": "SVP013",
       "sealed": 300,
       "promoRaw": 55.5,
-      "promoPsa10": 50,
+      "promoPsa10": 433.09,
       "etbImage": "https://storage.googleapis.com/images.pricecharting.com/10832c55eaa801bbbb19526eea1698b7fb9b1ec9f82641c6eb987ebb2dcc6cb7/240.jpg",
       "promoImage": "https://storage.googleapis.com/images.pricecharting.com/5r7xa6y4ldphr5wm/240.jpg",
       "topChases": [
         {
-          "id": "sv1-245",
-          "name": "Gardevoir ex",
+          "id": "pokemon-scarlet-&-violet/gardevoir-ex-245",
+          "name": "Gardevoir ex #245",
           "number": "245",
-          "rarity": "Special Illustration Rare",
-          "image": "https://images.pokemontcg.io/sv1/245_hires.png",
-          "market": 70.87,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/f7sdmw5xck7c3kow/240.jpg",
+          "market": 65,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-scarlet-&-violet/gardevoir-ex-245"
         },
         {
-          "id": "sv1-210",
-          "name": "Drowzee",
+          "id": "pokemon-scarlet-&-violet/drowzee-210",
+          "name": "Drowzee #210",
           "number": "210",
-          "rarity": "Illustration Rare",
-          "image": "https://images.pokemontcg.io/sv1/210_hires.png",
-          "market": 60.87,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/cc5my7vypg5qawga/240.jpg",
+          "market": 58.09,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-scarlet-&-violet/drowzee-210"
         },
         {
-          "id": "sv1-211",
-          "name": "Ralts",
+          "id": "pokemon-scarlet-&-violet/ralts-211",
+          "name": "Ralts #211",
           "number": "211",
-          "rarity": "Illustration Rare",
-          "image": "https://images.pokemontcg.io/sv1/211_hires.png",
-          "market": 42.59,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/6yj2bwk37wd7z3oh/240.jpg",
+          "market": 43.3,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-scarlet-&-violet/ralts-211"
         },
         {
-          "id": "sv1-212",
-          "name": "Kirlia",
+          "id": "pokemon-scarlet-&-violet/kirlia-212",
+          "name": "Kirlia #212",
           "number": "212",
-          "rarity": "Illustration Rare",
-          "image": "https://images.pokemontcg.io/sv1/212_hires.png",
-          "market": 41.58,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/jfitqoaakdwmxxin/240.jpg",
+          "market": 39.98,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-scarlet-&-violet/kirlia-212"
         },
         {
-          "id": "sv1-204",
-          "name": "Slowpoke",
+          "id": "pokemon-scarlet-&-violet/slowpoke-204",
+          "name": "Slowpoke #204",
           "number": "204",
-          "rarity": "Illustration Rare",
-          "image": "https://images.pokemontcg.io/sv1/204_hires.png",
-          "market": 39.88,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/pni6ylo5izhs53au/240.jpg",
+          "market": 39.14,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-scarlet-&-violet/slowpoke-204"
         }
       ],
-      "topChasesTotal": 255.79000000000002
+      "topChasesTotal": 245.51
     },
     {
       "id": "sv2:SVP027",
       "setId": "sv2",
       "promoNum": "SVP027",
       "sealed": 557.78,
-      "promoRaw": 160,
-      "promoPsa10": 113.31,
+      "promoRaw": 159.85,
+      "promoPsa10": 2343.19,
       "etbImage": "https://storage.googleapis.com/images.pricecharting.com/re5z3t47ikykkqf5/240.jpg",
       "promoImage": "https://storage.googleapis.com/images.pricecharting.com/l5wcclv5wci4fd4w/240.jpg",
       "topChases": [
@@ -839,7 +909,7 @@
           "number": "211",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/9e5032fc9f39ef4d91aa3297c655265671779a5e3e02f0092ba6f05fdf5a86f5/240.jpg",
-          "market": 99.99,
+          "market": 100,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-paldea-evolved/raichu-211"
         },
@@ -849,7 +919,7 @@
           "number": "226",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/be110354c5261fc7e482214d867f5774154087a488bed354e5e2d81a40a33c67/240.jpg",
-          "market": 78.63,
+          "market": 85,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-paldea-evolved/maushold-226"
         },
@@ -859,7 +929,7 @@
           "number": "222",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/153f2e2e944f98b5ed9dc9fb0ae07d2dca763e60746f4c8862c53bfbfeafac5d/240.jpg",
-          "market": 67.28,
+          "market": 66.19,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-paldea-evolved/tyranitar-222"
         },
@@ -869,20 +939,20 @@
           "number": "269",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/prwohtgu3krhwbrp/240.jpg",
-          "market": 54.89,
+          "market": 54.87,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-paldea-evolved/iono-269"
         }
       ],
-      "topChasesTotal": 657.6
+      "topChasesTotal": 662.87
     },
     {
       "id": "sv3:SVP044",
       "setId": "sv3",
       "promoNum": "SVP044",
-      "sealed": 649.99,
-      "promoRaw": 218.45,
-      "promoPsa10": 166.81,
+      "sealed": 659,
+      "promoRaw": 230,
+      "promoPsa10": 5625,
       "etbImage": "https://storage.googleapis.com/images.pricecharting.com/dffkmsm4obust5eh/240.jpg",
       "promoImage": "https://storage.googleapis.com/images.pricecharting.com/rkgwlmcwfhowj4h2/240.jpg",
       "topChases": [
@@ -892,19 +962,9 @@
           "number": "223",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/f1c41cee9aeb17ab2139aeadc2f95bf80c74c82cf042d39d18cc191dba4e9a5d/240.jpg",
-          "market": 99.94,
+          "market": 99.55,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-obsidian-flames/charizard-ex-223"
-        },
-        {
-          "id": "pokemon-obsidian-flames/cleffa-202",
-          "name": "Cleffa #202",
-          "number": "202",
-          "rarity": "",
-          "image": "https://storage.googleapis.com/images.pricecharting.com/be56f61a57f76312822abaad493d2441f1794800898157f80916dd861c23a4db/240.jpg",
-          "market": 36.39,
-          "source": "pricecharting",
-          "sourceUrl": "https://www.pricecharting.com/game/pokemon-obsidian-flames/cleffa-202"
         },
         {
           "id": "pokemon-obsidian-flames/ninetales-199",
@@ -912,9 +972,19 @@
           "number": "199",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/b2e61e7c33b80de6298733d0e34d47c3a1bc4cc214e3b128ec463577f08c75c2/240.jpg",
-          "market": 36.37,
+          "market": 38,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-obsidian-flames/ninetales-199"
+        },
+        {
+          "id": "pokemon-obsidian-flames/cleffa-202",
+          "name": "Cleffa #202",
+          "number": "202",
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/be56f61a57f76312822abaad493d2441f1794800898157f80916dd861c23a4db/240.jpg",
+          "market": 36,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-obsidian-flames/cleffa-202"
         },
         {
           "id": "pokemon-obsidian-flames/charizard-ex-228",
@@ -922,7 +992,7 @@
           "number": "228",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/3o5kqshwyuq7ng46/240.jpg",
-          "market": 34.36,
+          "market": 35.84,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-obsidian-flames/charizard-ex-228"
         },
@@ -932,20 +1002,20 @@
           "number": "198",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/c519f52df746cc883a18c370bd555cddad17e907427ce02e6588df54bd44ad40/240.jpg",
-          "market": 22.49,
+          "market": 20.99,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-obsidian-flames/gloom-198"
         }
       ],
-      "topChasesTotal": 229.55
+      "topChasesTotal": 230.38000000000002
     },
     {
       "id": "sv3pt5:SVP051",
       "setId": "sv3pt5",
       "promoNum": "SVP051",
-      "sealed": 1157.47,
-      "promoRaw": 275,
-      "promoPsa10": 231.64,
+      "sealed": 1143.96,
+      "promoRaw": 278.77,
+      "promoPsa10": 1926.98,
       "etbImage": "https://storage.googleapis.com/images.pricecharting.com/3c88323a3239400bec293cb887d0f9248edcbc6e5ee7a164fb1bf9a23575b582/240.jpg",
       "promoImage": "https://storage.googleapis.com/images.pricecharting.com/be14ea8126e340d7e121b138480abd57997c2740a119c20d9e6e6c983cec73ac/240.jpg",
       "topChases": [
@@ -955,7 +1025,7 @@
           "number": "199",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/2z2r3eie25dtigmj/240.jpg",
-          "market": 355,
+          "market": 370,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-scarlet-&-violet-151/charizard-ex-199"
         },
@@ -965,7 +1035,7 @@
           "number": "200",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/s53p4sjdrmr4gduu/240.jpg",
-          "market": 135.26,
+          "market": 129.79,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-scarlet-&-violet-151/blastoise-ex-200"
         },
@@ -975,7 +1045,7 @@
           "number": "198",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/uubvqrwrpwgbwilf/240.jpg",
-          "market": 105,
+          "market": 106.01,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-scarlet-&-violet-151/venusaur-ex-198"
         },
@@ -985,7 +1055,7 @@
           "number": "202",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/fymgvzekjzthz7sn/240.jpg",
-          "market": 91.95,
+          "market": 90,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-scarlet-&-violet-151/zapdos-ex-202"
         },
@@ -995,146 +1065,146 @@
           "number": "168",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/qazyxjoymdmuxeq4/240.jpg",
-          "market": 88,
+          "market": 89.99,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-scarlet-&-violet-151/charmander-168"
         }
       ],
-      "topChasesTotal": 775.21
+      "topChasesTotal": 785.79
     },
     {
       "id": "sv4:SVP065",
       "setId": "sv4",
       "promoNum": "SVP065",
-      "sealed": 214.48,
+      "sealed": 212.48,
       "promoRaw": 42.78,
-      "promoPsa10": 28.4,
+      "promoPsa10": 220,
       "etbImage": "https://storage.googleapis.com/images.pricecharting.com/5cb997d2173d27e7f50612477120af5f888971adee87f41209cc47c54234bb06/240.jpg",
       "promoImage": "https://storage.googleapis.com/images.pricecharting.com/vcajhetnghahbhel/240.jpg",
       "topChases": [
         {
-          "id": "sv4-199",
-          "name": "Groudon",
+          "id": "pokemon-paradox-rift/groudon-199",
+          "name": "Groudon #199",
           "number": "199",
-          "rarity": "Illustration Rare",
-          "image": "https://images.pokemontcg.io/sv4/199_hires.png",
-          "market": 120.89,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/6131cd0cbfe7af928af4c974315b2c71a0a4e778f27a65c8ddb82a871defa23a/240.jpg",
+          "market": 109.84,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-paradox-rift/groudon-199"
         },
         {
-          "id": "sv4-206",
-          "name": "Morpeko",
+          "id": "pokemon-paradox-rift/morpeko-206",
+          "name": "Morpeko #206",
           "number": "206",
-          "rarity": "Illustration Rare",
-          "image": "https://images.pokemontcg.io/sv4/206_hires.png",
-          "market": 60.25,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/5009c2e710c3733f28219f548e7c95d238ba43dbcf9bb6f4a33b3184cad2cee0/240.jpg",
+          "market": 55.03,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-paradox-rift/morpeko-206"
         },
         {
-          "id": "sv4-194",
-          "name": "Minun",
-          "number": "194",
-          "rarity": "Illustration Rare",
-          "image": "https://images.pokemontcg.io/sv4/194_hires.png",
-          "market": 45.63,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "id": "pokemon-paradox-rift/altaria-ex-253",
+          "name": "Altaria ex #253",
+          "number": "253",
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/vmv46e7r5tpqhdqk/240.jpg",
+          "market": 54.99,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-paradox-rift/altaria-ex-253"
         },
         {
-          "id": "sv4-193",
-          "name": "Plusle",
+          "id": "pokemon-paradox-rift/plusle-193",
+          "name": "Plusle #193",
           "number": "193",
-          "rarity": "Illustration Rare",
-          "image": "https://images.pokemontcg.io/sv4/193_hires.png",
-          "market": 45.56,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/195b12c6f625f946717ebaa277df5f42420638217b86eb0eeba144b85f46f12a/240.jpg",
+          "market": 43.14,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-paradox-rift/plusle-193"
         },
         {
-          "id": "sv4-208",
-          "name": "Steelix",
-          "number": "208",
-          "rarity": "Illustration Rare",
-          "image": "https://images.pokemontcg.io/sv4/208_hires.png",
-          "market": 37.1,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "id": "pokemon-paradox-rift/minun-194",
+          "name": "Minun #194",
+          "number": "194",
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/19767dbf547746743a499d610876ea6dbf3080c21c4da7544d41ea90b7f10f05/240.jpg",
+          "market": 41.52,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-paradox-rift/minun-194"
         }
       ],
-      "topChasesTotal": 309.43
+      "topChasesTotal": 304.52
     },
     {
       "id": "sv4:SVP066",
       "setId": "sv4",
       "promoNum": "SVP066",
       "sealed": 189.99,
-      "promoRaw": 32.5,
-      "promoPsa10": 46.09,
+      "promoRaw": 32.47,
+      "promoPsa10": 215.4,
       "etbImage": "https://storage.googleapis.com/images.pricecharting.com/019d9a2629a71b1357c13492c57bbf5e0430e48134d7e9b35dce0d253b0fec77/240.jpg",
       "promoImage": "https://storage.googleapis.com/images.pricecharting.com/g364hhv3xofnmsi5/240.jpg",
       "topChases": [
         {
-          "id": "sv4-199",
-          "name": "Groudon",
+          "id": "pokemon-paradox-rift/groudon-199",
+          "name": "Groudon #199",
           "number": "199",
-          "rarity": "Illustration Rare",
-          "image": "https://images.pokemontcg.io/sv4/199_hires.png",
-          "market": 120.89,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/6131cd0cbfe7af928af4c974315b2c71a0a4e778f27a65c8ddb82a871defa23a/240.jpg",
+          "market": 109.84,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-paradox-rift/groudon-199"
         },
         {
-          "id": "sv4-206",
-          "name": "Morpeko",
+          "id": "pokemon-paradox-rift/morpeko-206",
+          "name": "Morpeko #206",
           "number": "206",
-          "rarity": "Illustration Rare",
-          "image": "https://images.pokemontcg.io/sv4/206_hires.png",
-          "market": 60.25,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/5009c2e710c3733f28219f548e7c95d238ba43dbcf9bb6f4a33b3184cad2cee0/240.jpg",
+          "market": 55.03,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-paradox-rift/morpeko-206"
         },
         {
-          "id": "sv4-194",
-          "name": "Minun",
-          "number": "194",
-          "rarity": "Illustration Rare",
-          "image": "https://images.pokemontcg.io/sv4/194_hires.png",
-          "market": 45.63,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "id": "pokemon-paradox-rift/altaria-ex-253",
+          "name": "Altaria ex #253",
+          "number": "253",
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/vmv46e7r5tpqhdqk/240.jpg",
+          "market": 54.99,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-paradox-rift/altaria-ex-253"
         },
         {
-          "id": "sv4-193",
-          "name": "Plusle",
+          "id": "pokemon-paradox-rift/plusle-193",
+          "name": "Plusle #193",
           "number": "193",
-          "rarity": "Illustration Rare",
-          "image": "https://images.pokemontcg.io/sv4/193_hires.png",
-          "market": 45.56,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/195b12c6f625f946717ebaa277df5f42420638217b86eb0eeba144b85f46f12a/240.jpg",
+          "market": 43.14,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-paradox-rift/plusle-193"
         },
         {
-          "id": "sv4-208",
-          "name": "Steelix",
-          "number": "208",
-          "rarity": "Illustration Rare",
-          "image": "https://images.pokemontcg.io/sv4/208_hires.png",
-          "market": 37.1,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "id": "pokemon-paradox-rift/minun-194",
+          "name": "Minun #194",
+          "number": "194",
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/19767dbf547746743a499d610876ea6dbf3080c21c4da7544d41ea90b7f10f05/240.jpg",
+          "market": 41.52,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-paradox-rift/minun-194"
         }
       ],
-      "topChasesTotal": 309.43
+      "topChasesTotal": 304.52
     },
     {
       "id": "sv4pt5:SVP075",
       "setId": "sv4pt5",
       "promoNum": "SVP075",
-      "sealed": 535.98,
+      "sealed": 532.02,
       "promoRaw": 69.99,
-      "promoPsa10": 57.36,
+      "promoPsa10": 364.43,
       "etbImage": "https://storage.googleapis.com/images.pricecharting.com/tmke5fbm46ndsqdr/240.jpg",
       "promoImage": "https://storage.googleapis.com/images.pricecharting.com/2f7b72b26f7dceaef2755279eadec28de5de1967894e1cecb060707828a20d1f/240.jpg",
       "topChases": [
@@ -1144,7 +1214,7 @@
           "number": "232",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/741c562c629f44c6f16cec378fae53d9e2246cddd9bed7e96a814e84d1294aa7/240.jpg",
-          "market": 880.54,
+          "market": 886.54,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-paldean-fates/mew-ex-232"
         },
@@ -1154,7 +1224,7 @@
           "number": "234",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/9d4a3f91cb9ecb11ea767406bd89509e1e675edad05f6f91f296efb3b66b357c/240.jpg",
-          "market": 274.45,
+          "market": 265.95,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-paldean-fates/charizard-ex-234"
         },
@@ -1164,7 +1234,7 @@
           "number": "233",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/7ed39d5547e0ffd12846d1f17d1cf6721c5d4319ac5c43c7dda6b8dc058c5b27/240.jpg",
-          "market": 162.13,
+          "market": 165,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-paldean-fates/gardevoir-ex-233"
         },
@@ -1174,7 +1244,7 @@
           "number": "131",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/3e5e3750e7d033d8f81357d6bbb4754dadc75e52f3f546b2f8bf922af0a365f4/240.jpg",
-          "market": 74.5,
+          "market": 78.11,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-paldean-fates/pikachu-131"
         },
@@ -1184,83 +1254,83 @@
           "number": "202",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/f97f02456c4cedf8d343beaccdfb8026818442e49cd11c68bf44e9f915cd06fc/240.jpg",
-          "market": 50.26,
+          "market": 50.23,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-paldean-fates/snorlax-202"
         }
       ],
-      "topChasesTotal": 1441.8799999999999
+      "topChasesTotal": 1445.83
     },
     {
       "id": "sv5:SVP097",
       "setId": "sv5",
       "promoNum": "SVP097",
       "sealed": 197.25,
-      "promoRaw": 35.64,
-      "promoPsa10": 21.6,
+      "promoRaw": 35.53,
+      "promoPsa10": 676.53,
       "etbImage": "https://storage.googleapis.com/images.pricecharting.com/hdandwo4ehqo4c57/240.jpg",
       "promoImage": "https://storage.googleapis.com/images.pricecharting.com/jqkezuwoek63slpw/240.jpg",
       "topChases": [
         {
-          "id": "sv5-177",
-          "name": "Gastly",
+          "id": "pokemon-temporal-forces/gastly-177",
+          "name": "Gastly #177",
           "number": "177",
-          "rarity": "Illustration Rare",
-          "image": "https://images.pokemontcg.io/sv5/177_hires.png",
-          "market": 96.77,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/wj6xawywsglf2rg4/240.jpg",
+          "market": 92.24,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-temporal-forces/gastly-177"
         },
         {
-          "id": "sv5-208",
-          "name": "Raging Bolt ex",
+          "id": "pokemon-temporal-forces/roaring-moon-misprint-109",
+          "name": "Roaring Moon [Misprint] #109",
+          "number": "109",
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/ztbspqvtoxw3wnr7/240.jpg",
+          "market": 66,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-temporal-forces/roaring-moon-misprint-109"
+        },
+        {
+          "id": "pokemon-temporal-forces/raging-bolt-ex-208",
+          "name": "Raging Bolt ex #208",
           "number": "208",
-          "rarity": "Special Illustration Rare",
-          "image": "https://images.pokemontcg.io/sv5/208_hires.png",
-          "market": 63.26,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/77a1fc8e161e441fe7c92c8e5c48bbbf73418de007af8983b87f2f80e6c31ab3/240.jpg",
+          "market": 63.68,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-temporal-forces/raging-bolt-ex-208"
         },
         {
-          "id": "sv5-211",
-          "name": "Morty's Conviction",
+          "id": "pokemon-temporal-forces/morty%27s-conviction-211",
+          "name": "Morty's Conviction #211",
           "number": "211",
-          "rarity": "Special Illustration Rare",
-          "image": "https://images.pokemontcg.io/sv5/211_hires.png",
-          "market": 62.31,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/1ae5edb11e784ebd57f269a623c3a098780ed95d1e3abfa66d1c6fbd06718362/240.jpg",
+          "market": 59.98,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-temporal-forces/morty%27s-conviction-211"
         },
         {
-          "id": "sv5-166",
-          "name": "Sawsbuck",
-          "number": "166",
-          "rarity": "Illustration Rare",
-          "image": "https://images.pokemontcg.io/sv5/166_hires.png",
-          "market": 58.89,
-          "source": "tcgplayer",
-          "sourceUrl": null
-        },
-        {
-          "id": "sv5-193",
-          "name": "Gengar ex",
+          "id": "pokemon-temporal-forces/gengar-ex-193",
+          "name": "Gengar ex #193",
           "number": "193",
-          "rarity": "Ultra Rare",
-          "image": "https://images.pokemontcg.io/sv5/193_hires.png",
-          "market": 54.55,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/13a5caba3f2e44933c52505746144989216f1a329d7f64cb32244e385a21a7d1/240.jpg",
+          "market": 53.97,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-temporal-forces/gengar-ex-193"
         }
       ],
-      "topChasesTotal": 335.78000000000003
+      "topChasesTotal": 335.87
     },
     {
       "id": "sv5:SVP098",
       "setId": "sv5",
       "promoNum": "SVP098",
       "sealed": 199.98,
-      "promoRaw": 40,
-      "promoPsa10": 30,
+      "promoRaw": 40.39,
+      "promoPsa10": 344,
       "etbImage": "https://storage.googleapis.com/images.pricecharting.com/ducswgcpevwe7q3f/240.jpg",
       "promoImage": "https://storage.googleapis.com/images.pricecharting.com/qincpqhk3cznwss2/240.jpg",
       "topChases": [
@@ -1290,7 +1360,7 @@
           "number": "208",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/77a1fc8e161e441fe7c92c8e5c48bbbf73418de007af8983b87f2f80e6c31ab3/240.jpg",
-          "market": 62.02,
+          "market": 63.68,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-temporal-forces/raging-bolt-ex-208"
         },
@@ -1300,7 +1370,7 @@
           "number": "211",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/1ae5edb11e784ebd57f269a623c3a098780ed95d1e3abfa66d1c6fbd06718362/240.jpg",
-          "market": 60.84,
+          "market": 59.98,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-temporal-forces/morty%27s-conviction-211"
         },
@@ -1310,20 +1380,20 @@
           "number": "193",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/13a5caba3f2e44933c52505746144989216f1a329d7f64cb32244e385a21a7d1/240.jpg",
-          "market": 55,
+          "market": 53.97,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-temporal-forces/gengar-ex-193"
         }
       ],
-      "topChasesTotal": 336.1
+      "topChasesTotal": 335.87
     },
     {
       "id": "sv6:SVP123",
       "setId": "sv6",
       "promoNum": "SVP123",
-      "sealed": 179,
+      "sealed": 179.97,
       "promoRaw": 23.55,
-      "promoPsa10": 20.5,
+      "promoPsa10": 285.12,
       "etbImage": "https://storage.googleapis.com/images.pricecharting.com/b454e55g2v5bp7bi/240.jpg",
       "promoImage": "https://storage.googleapis.com/images.pricecharting.com/itrgmzjfbzmrxaqi/240.jpg",
       "topChases": [
@@ -1333,7 +1403,7 @@
           "number": "214",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/b615c0ce4c3f6019e3562982e4a53823da2269709c435aab7c1220a1841b56a8/240.jpg",
-          "market": 329.42,
+          "market": 331.44,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-twilight-masquerade/greninja-ex-214"
         },
@@ -1343,7 +1413,7 @@
           "number": "220",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/3d798d24d10689b63ad329450412731096330f87a8b9efb65fe111c1568348b8/240.jpg",
-          "market": 147.5,
+          "market": 151.25,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-twilight-masquerade/perrin-220"
         },
@@ -1368,25 +1438,25 @@
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-twilight-masquerade/greninja-ex-metal-106"
         },
         {
-          "id": "pokemon-twilight-masquerade/chansey-187",
-          "name": "Chansey #187",
-          "number": "187",
+          "id": "pokemon-twilight-masquerade/carmine-217",
+          "name": "Carmine #217",
+          "number": "217",
           "rarity": "",
-          "image": "https://storage.googleapis.com/images.pricecharting.com/4936f6f735ae012bdea7a541182b8ee6150124665fa3df2238dd6bff17c48f32/240.jpg",
-          "market": 52.52,
+          "image": "https://storage.googleapis.com/images.pricecharting.com/32cca99ca97f3bea099471381eec6de3536d5d6c02e631535300ad969dc49563/240.jpg",
+          "market": 53.33,
           "source": "pricecharting",
-          "sourceUrl": "https://www.pricecharting.com/game/pokemon-twilight-masquerade/chansey-187"
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-twilight-masquerade/carmine-217"
         }
       ],
-      "topChasesTotal": 684.5899999999999
+      "topChasesTotal": 691.17
     },
     {
       "id": "sv6pt5:SVP129",
       "setId": "sv6pt5",
       "promoNum": "SVP129",
       "sealed": 164.93,
-      "promoRaw": 19.99,
-      "promoPsa10": 23,
+      "promoRaw": 19.16,
+      "promoPsa10": 100.31,
       "etbImage": "https://storage.googleapis.com/images.pricecharting.com/u46knxr6assdjow4/240.jpg",
       "promoImage": "https://storage.googleapis.com/images.pricecharting.com/uvsdv6kih43xpjl4/240.jpg",
       "topChases": [
@@ -1396,7 +1466,7 @@
           "number": "78",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/66daioreemwebmkw/240.jpg",
-          "market": 69.99,
+          "market": 67.17,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-shrouded-fable/persian-78"
         },
@@ -1406,19 +1476,9 @@
           "number": "98",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/mx7yph7ncdjtcktv/240.jpg",
-          "market": 58.07,
+          "market": 57.34,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-shrouded-fable/basic-darkness-energy-98"
-        },
-        {
-          "id": "pokemon-shrouded-fable/duskull-68",
-          "name": "Duskull #68",
-          "number": "68",
-          "rarity": "",
-          "image": "https://storage.googleapis.com/images.pricecharting.com/srzfvyg2jddbelgo/240.jpg",
-          "market": 48.67,
-          "source": "pricecharting",
-          "sourceUrl": "https://www.pricecharting.com/game/pokemon-shrouded-fable/duskull-68"
         },
         {
           "id": "pokemon-shrouded-fable/houndoom-66",
@@ -1426,9 +1486,19 @@
           "number": "66",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/rl74gzwvzzxdffh4/240.jpg",
-          "market": 47,
+          "market": 52.57,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-shrouded-fable/houndoom-66"
+        },
+        {
+          "id": "pokemon-shrouded-fable/duskull-68",
+          "name": "Duskull #68",
+          "number": "68",
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/srzfvyg2jddbelgo/240.jpg",
+          "market": 49.95,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-shrouded-fable/duskull-68"
         },
         {
           "id": "pokemon-shrouded-fable/horsea-67",
@@ -1441,7 +1511,7 @@
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-shrouded-fable/horsea-67"
         }
       ],
-      "topChasesTotal": 266.73
+      "topChasesTotal": 270.03000000000003
     },
     {
       "id": "sv7:SVP141",
@@ -1449,7 +1519,7 @@
       "promoNum": "SVP141",
       "sealed": 161.11,
       "promoRaw": 30,
-      "promoPsa10": 22,
+      "promoPsa10": 199.5,
       "etbImage": "https://storage.googleapis.com/images.pricecharting.com/dj4tjpvehv3ku6me/240.jpg",
       "promoImage": "https://storage.googleapis.com/images.pricecharting.com/36olxevffhfwo36c/240.jpg",
       "topChases": [
@@ -1459,7 +1529,7 @@
           "number": "148",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/ftinihtvwdptn54d/240.jpg",
-          "market": 104.71,
+          "market": 99.98,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-stellar-crown/squirtle-148"
         },
@@ -1469,7 +1539,7 @@
           "number": "143",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/wyeiua3rkv32dhmg/240.jpg",
-          "market": 95,
+          "market": 92,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-stellar-crown/bulbasaur-143"
         },
@@ -1489,7 +1559,7 @@
           "number": "170",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/m4tcnh7qj74fiab5/240.jpg",
-          "market": 34.33,
+          "market": 36.25,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-stellar-crown/terapagos-ex-170"
         },
@@ -1499,209 +1569,209 @@
           "number": "167",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/sko35oi7dwaf4cqt/240.jpg",
-          "market": 33.86,
+          "market": 34.75,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-stellar-crown/hydrapple-ex-167"
         }
       ],
-      "topChasesTotal": 332.9
+      "topChasesTotal": 327.98
     },
     {
       "id": "sv8:SVP159",
       "setId": "sv8",
       "promoNum": "SVP159",
-      "sealed": 271.65,
-      "promoRaw": 65.25,
-      "promoPsa10": 42.06,
+      "sealed": 269.37,
+      "promoRaw": 64,
+      "promoPsa10": 262.92,
       "etbImage": "https://storage.googleapis.com/images.pricecharting.com/773qfuhxy7653zua/240.jpg",
       "promoImage": "https://storage.googleapis.com/images.pricecharting.com/buucshfubv664rzz/240.jpg",
       "topChases": [
         {
-          "id": "sv8-238",
-          "name": "Pikachu ex",
+          "id": "pokemon-surging-sparks/pikachu-ex-238",
+          "name": "Pikachu ex #238",
           "number": "238",
-          "rarity": "Special Illustration Rare",
-          "image": "https://images.pokemontcg.io/sv8/238_hires.png",
-          "market": 285.74,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/ivoxvamihqbx3puv/240.jpg",
+          "market": 274.75,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-surging-sparks/pikachu-ex-238"
         },
         {
-          "id": "sv8-239",
-          "name": "Latias ex",
+          "id": "pokemon-surging-sparks/latias-ex-239",
+          "name": "Latias ex #239",
           "number": "239",
-          "rarity": "Special Illustration Rare",
-          "image": "https://images.pokemontcg.io/sv8/239_hires.png",
-          "market": 186.75,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/hfgzgvgahfkfj4k2/240.jpg",
+          "market": 176.27,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-surging-sparks/latias-ex-239"
         },
         {
-          "id": "sv8-237",
-          "name": "Milotic ex",
+          "id": "pokemon-surging-sparks/milotic-ex-237",
+          "name": "Milotic ex #237",
           "number": "237",
-          "rarity": "Special Illustration Rare",
-          "image": "https://images.pokemontcg.io/sv8/237_hires.png",
-          "market": 124.27,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/xusvea5mrwh6bjwc/240.jpg",
+          "market": 117.99,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-surging-sparks/milotic-ex-237"
         },
         {
-          "id": "sv8-247",
-          "name": "Pikachu ex",
+          "id": "pokemon-surging-sparks/pikachu-ex-247",
+          "name": "Pikachu ex #247",
           "number": "247",
-          "rarity": "Hyper Rare",
-          "image": "https://images.pokemontcg.io/sv8/247_hires.png",
-          "market": 84.96,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/luoinozgqj3hq7b7/240.jpg",
+          "market": 77.99,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-surging-sparks/pikachu-ex-247"
         },
         {
-          "id": "sv8-236",
-          "name": "Durant ex",
-          "number": "236",
-          "rarity": "Special Illustration Rare",
-          "image": "https://images.pokemontcg.io/sv8/236_hires.png",
-          "market": 38.88,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "id": "pokemon-surging-sparks/hydreigon-ex-240",
+          "name": "Hydreigon ex #240",
+          "number": "240",
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/oihfpdr36jkztsuw/240.jpg",
+          "market": 35.64,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-surging-sparks/hydreigon-ex-240"
         }
       ],
-      "topChasesTotal": 720.6
+      "topChasesTotal": 682.64
     },
     {
       "id": "sv8pt5:SVP173",
       "setId": "sv8pt5",
       "promoNum": "SVP173",
-      "sealed": 409.3,
+      "sealed": 404.85,
       "promoRaw": 83.49,
-      "promoPsa10": 71.16,
+      "promoPsa10": 730,
       "etbImage": "https://storage.googleapis.com/images.pricecharting.com/nfceovpaqhccpdlk/240.jpg",
       "promoImage": "https://storage.googleapis.com/images.pricecharting.com/wjtpviswu5dqsys3/240.jpg",
       "topChases": [
         {
-          "id": "sv8pt5-161",
-          "name": "Umbreon ex",
+          "id": "pokemon-prismatic-evolutions/umbreon-ex-161",
+          "name": "Umbreon ex #161",
           "number": "161",
-          "rarity": "Special Illustration Rare",
-          "image": "https://images.pokemontcg.io/sv8pt5/161_hires.png",
-          "market": 1410.28,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/i75h7boqafwuy5tk/240.jpg",
+          "market": 1250.46,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-prismatic-evolutions/umbreon-ex-161"
         },
         {
-          "id": "sv8pt5-156",
-          "name": "Sylveon ex",
+          "id": "pokemon-prismatic-evolutions/sylveon-ex-156",
+          "name": "Sylveon ex #156",
           "number": "156",
-          "rarity": "Special Illustration Rare",
-          "image": "https://images.pokemontcg.io/sv8pt5/156_hires.png",
-          "market": 533.18,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/4ezajguq4zdzrruc/240.jpg",
+          "market": 475.5,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-prismatic-evolutions/sylveon-ex-156"
         },
         {
-          "id": "sv8pt5-144",
-          "name": "Leafeon ex",
+          "id": "pokemon-prismatic-evolutions/leafeon-ex-144",
+          "name": "Leafeon ex #144",
           "number": "144",
-          "rarity": "Special Illustration Rare",
-          "image": "https://images.pokemontcg.io/sv8pt5/144_hires.png",
-          "market": 334.14,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/wpxbmlx6h5br654j/240.jpg",
+          "market": 294.5,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-prismatic-evolutions/leafeon-ex-144"
         },
         {
-          "id": "sv8pt5-155",
-          "name": "Espeon ex",
+          "id": "pokemon-prismatic-evolutions/espeon-ex-155",
+          "name": "Espeon ex #155",
           "number": "155",
-          "rarity": "Special Illustration Rare",
-          "image": "https://images.pokemontcg.io/sv8pt5/155_hires.png",
-          "market": 315.57,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/hea34yuopqm73hrw/240.jpg",
+          "market": 279.27,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-prismatic-evolutions/espeon-ex-155"
         },
         {
-          "id": "sv8pt5-149",
-          "name": "Vaporeon ex",
+          "id": "pokemon-prismatic-evolutions/vaporeon-ex-149",
+          "name": "Vaporeon ex #149",
           "number": "149",
-          "rarity": "Special Illustration Rare",
-          "image": "https://images.pokemontcg.io/sv8pt5/149_hires.png",
-          "market": 290.42,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/w434wwhgdc4uzkdr/240.jpg",
+          "market": 273,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-prismatic-evolutions/vaporeon-ex-149"
         }
       ],
-      "topChasesTotal": 2883.59
+      "topChasesTotal": 2572.73
     },
     {
       "id": "sv9:SVP189",
       "setId": "sv9",
       "promoNum": "SVP189",
-      "sealed": 195,
-      "promoRaw": 50,
-      "promoPsa10": 42.15,
+      "sealed": 196.65,
+      "promoRaw": null,
+      "promoPsa10": null,
       "etbImage": "https://storage.googleapis.com/images.pricecharting.com/dxqshqcjxwg7a52e/240.jpg",
-      "promoImage": "https://storage.googleapis.com/images.pricecharting.com/2t5alfqily3wgynj/240.jpg",
+      "promoImage": null,
       "topChases": [
         {
-          "id": "sv9-184",
-          "name": "Lillie's Clefairy ex",
+          "id": "pokemon-journey-together/lillie%27s-clefairy-ex-184",
+          "name": "Lillie's Clefairy Ex #184",
           "number": "184",
-          "rarity": "Special Illustration Rare",
-          "image": "https://images.pokemontcg.io/sv9/184_hires.png",
-          "market": 101.74,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/mikklqijbwus5mzz/240.jpg",
+          "market": 98.14,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-journey-together/lillie%27s-clefairy-ex-184"
         },
         {
-          "id": "sv9-187",
-          "name": "Salamence ex",
+          "id": "pokemon-journey-together/salamence-ex-187",
+          "name": "Salamence ex #187",
           "number": "187",
-          "rarity": "Special Illustration Rare",
-          "image": "https://images.pokemontcg.io/sv9/187_hires.png",
-          "market": 56.37,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/dvhsfc2enauut2uz/240.jpg",
+          "market": 58.15,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-journey-together/salamence-ex-187"
         },
         {
-          "id": "sv9-185",
-          "name": "N's Zoroark ex",
+          "id": "pokemon-journey-together/n%27s-zoroark-ex-185",
+          "name": "N's Zoroark Ex #185",
           "number": "185",
-          "rarity": "Special Illustration Rare",
-          "image": "https://images.pokemontcg.io/sv9/185_hires.png",
-          "market": 45.75,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/rplmvcnb4gnv6gy4/240.jpg",
+          "market": 40.59,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-journey-together/n%27s-zoroark-ex-185"
         },
         {
-          "id": "sv9-183",
-          "name": "Iono's Bellibolt ex",
+          "id": "pokemon-journey-together/iono%27s-bellibolt-ex-183",
+          "name": "Iono's Bellibolt ex #183",
           "number": "183",
-          "rarity": "Special Illustration Rare",
-          "image": "https://images.pokemontcg.io/sv9/183_hires.png",
-          "market": 38.13,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/t32myniusclcyywe/240.jpg",
+          "market": 36.43,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-journey-together/iono%27s-bellibolt-ex-183"
         },
         {
-          "id": "sv9-186",
-          "name": "Hop's Zacian ex",
+          "id": "pokemon-journey-together/hop%27s-zacian-ex-186",
+          "name": "Hop's Zacian ex #186",
           "number": "186",
-          "rarity": "Special Illustration Rare",
-          "image": "https://images.pokemontcg.io/sv9/186_hires.png",
-          "market": 31.28,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/cmmfuqfnt4cdwr7m/240.jpg",
+          "market": 29.46,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-journey-together/hop%27s-zacian-ex-186"
         }
       ],
-      "topChasesTotal": 273.27
+      "topChasesTotal": 262.77
     },
     {
       "id": "sv10:SVP203",
       "setId": "sv10",
       "promoNum": "SVP203",
-      "sealed": 431.5,
-      "promoRaw": 94.27,
-      "promoPsa10": 102.73,
+      "sealed": 425,
+      "promoRaw": 94.41,
+      "promoPsa10": 1125,
       "etbImage": "https://storage.googleapis.com/images.pricecharting.com/6eiwegze6pzkcrmk/240.jpg",
       "promoImage": "https://storage.googleapis.com/images.pricecharting.com/xzv3pmfo3ceylfot/240.jpg",
       "topChases": [
@@ -1711,7 +1781,7 @@
           "number": "231",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/72ewfeefuh2rvdl3/240.jpg",
-          "market": 474.41,
+          "market": 455.59,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-destined-rivals/team-rocket%27s-mewtwo-ex-231"
         },
@@ -1721,7 +1791,7 @@
           "number": "232",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/2ne2uibiu6lzpfba/240.jpg",
-          "market": 205,
+          "market": 209.99,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-destined-rivals/cynthia%27s-garchomp-ex-232"
         },
@@ -1731,7 +1801,7 @@
           "number": "230",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/qa24zph4ud2igr2l/240.jpg",
-          "market": 151.68,
+          "market": 146.73,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-destined-rivals/ethan%27s-ho-oh-ex-230"
         },
@@ -1741,7 +1811,7 @@
           "number": "233",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/g2cfrfohotrmitfl/240.jpg",
-          "market": 95.19,
+          "market": 95,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-destined-rivals/team-rocket%27s-nidoking-ex-233"
         },
@@ -1751,20 +1821,20 @@
           "number": "229",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/coblpnti3xaglty7/240.jpg",
-          "market": 88.66,
+          "market": 93.12,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-destined-rivals/team-rocket%27s-moltres-ex-229"
         }
       ],
-      "topChasesTotal": 1014.9400000000002
+      "topChasesTotal": 1000.43
     },
     {
       "id": "zsv10pt5:SVP209",
       "setId": "zsv10pt5",
       "promoNum": "SVP209",
-      "sealed": 272.95,
+      "sealed": 273.17,
       "promoRaw": 21,
-      "promoPsa10": 19.99,
+      "promoPsa10": 198,
       "etbImage": "https://storage.googleapis.com/images.pricecharting.com/6gyrf4jrbemqzbao/240.jpg",
       "promoImage": "https://storage.googleapis.com/images.pricecharting.com/xbhl5742yddza4sg/240.jpg",
       "topChases": [
@@ -1774,7 +1844,7 @@
           "number": "172",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/r5ettdtcb4wicypy/240.jpg",
-          "market": 560.24,
+          "market": 608.27,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-black-bolt/zekrom-ex-172"
         },
@@ -1784,7 +1854,7 @@
           "number": "166",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/4lqfdmhksmwp6fqq/240.jpg",
-          "market": 258,
+          "market": 252.44,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-black-bolt/zekrom-ex-166"
         },
@@ -1794,7 +1864,7 @@
           "number": "105",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/h4qy2anz3sxckxq7/240.jpg",
-          "market": 219.99,
+          "market": 219.1,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-black-bolt/seismitoad-105"
         },
@@ -1804,7 +1874,7 @@
           "number": "165",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/ugpun737shfrpeft/240.jpg",
-          "market": 71.87,
+          "market": 75,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-black-bolt/kyurem-ex-165"
         },
@@ -1814,83 +1884,83 @@
           "number": "170",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/zvauqymf6bknk7du/240.jpg",
-          "market": 65.3,
+          "market": 66.97,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-black-bolt/n%27s-plan-170"
         }
       ],
-      "topChasesTotal": 1175.3999999999999
+      "topChasesTotal": 1221.78
     },
     {
       "id": "rsv10pt5:SVP210",
       "setId": "rsv10pt5",
       "promoNum": "SVP210",
       "sealed": 237.99,
-      "promoRaw": 20.92,
-      "promoPsa10": 22.68,
+      "promoRaw": 20.81,
+      "promoPsa10": 455,
       "etbImage": "https://storage.googleapis.com/images.pricecharting.com/ebh3d4q7kghilqni/240.jpg",
       "promoImage": "https://storage.googleapis.com/images.pricecharting.com/sboebrxwoa67uwcm/240.jpg",
       "topChases": [
         {
-          "id": "rsv10pt5-166",
-          "name": "Reshiram ex",
+          "id": "pokemon-white-flare/reshiram-ex-173",
+          "name": "Reshiram ex #173",
+          "number": "173",
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/bovnogsztm6srgu2/240.jpg",
+          "market": 478.58,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-white-flare/reshiram-ex-173"
+        },
+        {
+          "id": "pokemon-white-flare/reshiram-ex-166",
+          "name": "Reshiram ex #166",
           "number": "166",
-          "rarity": "Special Illustration Rare",
-          "image": "https://images.pokemontcg.io/rsv10pt5/166_hires.png",
-          "market": 191.26,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/jq63fh7urcftkih3/240.jpg",
+          "market": 190,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-white-flare/reshiram-ex-166"
         },
         {
-          "id": "rsv10pt5-105",
-          "name": "Oshawott",
+          "id": "pokemon-white-flare/oshawott-105",
+          "name": "Oshawott #105",
           "number": "105",
-          "rarity": "Illustration Rare",
-          "image": "https://images.pokemontcg.io/rsv10pt5/105_hires.png",
-          "market": 90.69,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/myl6fawwoo36xaak/240.jpg",
+          "market": 85.71,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-white-flare/oshawott-105"
         },
         {
-          "id": "rsv10pt5-167",
-          "name": "Keldeo ex",
-          "number": "167",
-          "rarity": "Special Illustration Rare",
-          "image": "https://images.pokemontcg.io/rsv10pt5/167_hires.png",
-          "market": 78.55,
-          "source": "tcgplayer",
-          "sourceUrl": null
-        },
-        {
-          "id": "rsv10pt5-169",
-          "name": "Hydreigon ex",
+          "id": "pokemon-white-flare/hydreigon-ex-169",
+          "name": "Hydreigon ex #169",
           "number": "169",
-          "rarity": "Special Illustration Rare",
-          "image": "https://images.pokemontcg.io/rsv10pt5/169_hires.png",
-          "market": 78.01,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/7oz4bqhshtlejjp7/240.jpg",
+          "market": 76.77,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-white-flare/hydreigon-ex-169"
         },
         {
-          "id": "rsv10pt5-143",
-          "name": "Zoroark",
-          "number": "143",
-          "rarity": "Illustration Rare",
-          "image": "https://images.pokemontcg.io/rsv10pt5/143_hires.png",
-          "market": 77.87,
-          "source": "tcgplayer",
-          "sourceUrl": null
+          "id": "pokemon-white-flare/keldeo-ex-167",
+          "name": "Keldeo ex #167",
+          "number": "167",
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/skulnbifgsgv4nnv/240.jpg",
+          "market": 72.45,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-white-flare/keldeo-ex-167"
         }
       ],
-      "topChasesTotal": 516.38
+      "topChasesTotal": 903.51
     },
     {
       "id": "me1:MEP010",
       "setId": "me1",
       "promoNum": "MEP010",
-      "sealed": 207.06,
+      "sealed": 204.4,
       "promoRaw": 64.3,
-      "promoPsa10": 44.67,
+      "promoPsa10": 2550,
       "etbImage": "https://storage.googleapis.com/images.pricecharting.com/ppb65uvoch4z4lsn/240.jpg",
       "promoImage": "https://storage.googleapis.com/images.pricecharting.com/ugymndrayekxja72/240.jpg",
       "topChases": [
@@ -1900,7 +1970,7 @@
           "number": "188",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/hgvcsnv7zu4qfapt/240.jpg",
-          "market": 234.42,
+          "market": 234.23,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-mega-evolution/mega-lucario-ex-188"
         },
@@ -1910,7 +1980,7 @@
           "number": "187",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/mccmp4ruhseaeri7/240.jpg",
-          "market": 181.16,
+          "market": 181.6,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-mega-evolution/mega-gardevoir-ex-187"
         },
@@ -1920,7 +1990,7 @@
           "number": "179",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/quf6u6kbtusde3vz/240.jpg",
-          "market": 174.01,
+          "market": 174.98,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-mega-evolution/mega-lucario-ex-179"
         },
@@ -1930,7 +2000,7 @@
           "number": "178",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/vbjoy65x7iumbei3/240.jpg",
-          "market": 163.2,
+          "market": 174.83,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-mega-evolution/mega-gardevoir-ex-178"
         },
@@ -1940,20 +2010,20 @@
           "number": "177",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/cljqeuidy75urluu/240.jpg",
-          "market": 134.96,
+          "market": 144.14,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-mega-evolution/mega-venusaur-ex-177"
         }
       ],
-      "topChasesTotal": 887.75
+      "topChasesTotal": 909.78
     },
     {
       "id": "me1:MEP009",
       "setId": "me1",
       "promoNum": "MEP009",
-      "sealed": 192.5,
-      "promoRaw": 67.47,
-      "promoPsa10": 46.51,
+      "sealed": 200,
+      "promoRaw": 68.5,
+      "promoPsa10": 742.5,
       "etbImage": "https://storage.googleapis.com/images.pricecharting.com/al7z5bpehnvpbspn/240.jpg",
       "promoImage": "https://storage.googleapis.com/images.pricecharting.com/nbgryc4x35jlyyt7/240.jpg",
       "topChases": [
@@ -1963,7 +2033,7 @@
           "number": "188",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/hgvcsnv7zu4qfapt/240.jpg",
-          "market": 234.42,
+          "market": 234.23,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-mega-evolution/mega-lucario-ex-188"
         },
@@ -1973,7 +2043,7 @@
           "number": "187",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/mccmp4ruhseaeri7/240.jpg",
-          "market": 181.16,
+          "market": 181.6,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-mega-evolution/mega-gardevoir-ex-187"
         },
@@ -1983,7 +2053,7 @@
           "number": "179",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/quf6u6kbtusde3vz/240.jpg",
-          "market": 174.01,
+          "market": 174.98,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-mega-evolution/mega-lucario-ex-179"
         },
@@ -1993,7 +2063,7 @@
           "number": "178",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/vbjoy65x7iumbei3/240.jpg",
-          "market": 163.2,
+          "market": 174.83,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-mega-evolution/mega-gardevoir-ex-178"
         },
@@ -2003,20 +2073,20 @@
           "number": "177",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/cljqeuidy75urluu/240.jpg",
-          "market": 134.96,
+          "market": 144.14,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-mega-evolution/mega-venusaur-ex-177"
         }
       ],
-      "topChasesTotal": 887.75
+      "topChasesTotal": 909.78
     },
     {
       "id": "me2:MEP022",
       "setId": "me2",
       "promoNum": "MEP022",
-      "sealed": 285,
+      "sealed": 284.81,
       "promoRaw": 37.92,
-      "promoPsa10": 31.15,
+      "promoPsa10": 1382.02,
       "etbImage": "https://storage.googleapis.com/images.pricecharting.com/ph7xiznlhhnyewhq/240.jpg",
       "promoImage": "https://storage.googleapis.com/images.pricecharting.com/7fyfigz5i5phigpc/240.jpg",
       "topChases": [
@@ -2026,7 +2096,7 @@
           "number": "125",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/fsbqea5aod5mejp5/240.jpg",
-          "market": 734,
+          "market": 754.65,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-phantasmal-flames/mega-charizard-x-ex-125"
         },
@@ -2036,7 +2106,7 @@
           "number": "130",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/ddhdbtifd3a7uzh3/240.jpg",
-          "market": 253.02,
+          "market": 253.24,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-phantasmal-flames/mega-charizard-x-ex-130"
         },
@@ -2056,30 +2126,30 @@
           "number": "109",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/zaj7no3ewsgm733y/240.jpg",
-          "market": 28.49,
+          "market": 28.95,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-phantasmal-flames/mega-charizard-x-ex-109"
         },
         {
-          "id": "pokemon-phantasmal-flames/dawn-129",
-          "name": "Dawn #129",
-          "number": "129",
+          "id": "pokemon-phantasmal-flames/meowth-106",
+          "name": "Meowth #106",
+          "number": "106",
           "rarity": "",
-          "image": "https://storage.googleapis.com/images.pricecharting.com/jcfn45lzvohnxjgw/240.jpg",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/5jww5phgmfvpdy2p/240.jpg",
           "market": 19.99,
           "source": "pricecharting",
-          "sourceUrl": "https://www.pricecharting.com/game/pokemon-phantasmal-flames/dawn-129"
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-phantasmal-flames/meowth-106"
         }
       ],
-      "topChasesTotal": 1065.03
+      "topChasesTotal": 1086.3600000000001
     },
     {
       "id": "me2pt5:MEP031",
       "setId": "me2pt5",
       "promoNum": "MEP031",
-      "sealed": 384.01,
+      "sealed": 385,
       "promoRaw": 73.19,
-      "promoPsa10": 66.82,
+      "promoPsa10": 4250,
       "etbImage": "https://storage.googleapis.com/images.pricecharting.com/mj5fegtbzvuadryw/240.jpg",
       "promoImage": "https://storage.googleapis.com/images.pricecharting.com/pjieafqk2tmbxc6z/240.jpg",
       "topChases": [
@@ -2089,7 +2159,7 @@
           "number": "276",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/o7oe255flanpc7fa/240.jpg",
-          "market": 942.01,
+          "market": 914.45,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-ascended-heroes/pikachu-ex-276"
         },
@@ -2099,7 +2169,7 @@
           "number": "284",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/pifh7ilyhjsczrkp/240.jpg",
-          "market": 898.39,
+          "market": 873.74,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-ascended-heroes/mega-gengar-ex-284"
         },
@@ -2114,35 +2184,35 @@
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-ascended-heroes/mega-dragonite-ex-290"
         },
         {
-          "id": "pokemon-ascended-heroes/pikachu-ex-277",
-          "name": "Pikachu ex #277",
-          "number": "277",
-          "rarity": "",
-          "image": "https://storage.googleapis.com/images.pricecharting.com/br63idkozy4kdqvm/240.jpg",
-          "market": 337.5,
-          "source": "pricecharting",
-          "sourceUrl": "https://www.pricecharting.com/game/pokemon-ascended-heroes/pikachu-ex-277"
-        },
-        {
           "id": "pokemon-ascended-heroes/mega-charizard-y-ex-294",
           "name": "Mega Charizard Y ex #294",
           "number": "294",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/pkxgasfmpkn27trm/240.jpg",
-          "market": 328.54,
+          "market": 327.44,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-ascended-heroes/mega-charizard-y-ex-294"
+        },
+        {
+          "id": "pokemon-ascended-heroes/pikachu-ex-277",
+          "name": "Pikachu ex #277",
+          "number": "277",
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/br63idkozy4kdqvm/240.jpg",
+          "market": 319.36,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-ascended-heroes/pikachu-ex-277"
         }
       ],
-      "topChasesTotal": 3086.44
+      "topChasesTotal": 3014.9900000000002
     },
     {
       "id": "me3:MEP070",
       "setId": "me3",
       "promoNum": "MEP070",
-      "sealed": 120.65,
-      "promoRaw": 31.79,
-      "promoPsa10": 83.17,
+      "sealed": 123.23,
+      "promoRaw": 31.1,
+      "promoPsa10": 661.24,
       "etbImage": "https://storage.googleapis.com/images.pricecharting.com/6crfizwkz7tk2tv5/240.jpg",
       "promoImage": "https://storage.googleapis.com/images.pricecharting.com/etii4jccisttlmfp/240.jpg",
       "topChases": [
@@ -2152,7 +2222,9 @@
           "number": "124",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/plnhpzwn5jpycuqx/240.jpg",
-          "market": 123.26
+          "market": 122.48,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-perfect-order/mega-zygarde-ex-124"
         },
         {
           "id": "pokemon-perfect-order/meowth-ex-121",
@@ -2160,7 +2232,9 @@
           "number": "121",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/quy4qk4ujdqwxt3q/240.jpg",
-          "market": 114.46
+          "market": 114.18,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-perfect-order/meowth-ex-121"
         },
         {
           "id": "pokemon-perfect-order/mega-zygarde-ex-120",
@@ -2168,15 +2242,9 @@
           "number": "120",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/6me24vcq6bh5ip7a/240.jpg",
-          "market": 58.65
-        },
-        {
-          "id": "pokemon-perfect-order/mega-clefable-ex-119",
-          "name": "Mega Clefable ex #119",
-          "number": "119",
-          "rarity": "",
-          "image": "https://storage.googleapis.com/images.pricecharting.com/ik5y5lbb25s4zs4u/240.jpg",
-          "market": 50.49
+          "market": 55.12,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-perfect-order/mega-zygarde-ex-120"
         },
         {
           "id": "pokemon-perfect-order/rosa%27s-encouragement-123",
@@ -2184,40 +2252,52 @@
           "number": "123",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/aw2ljhsboaozgv5q/240.jpg",
-          "market": 45
+          "market": 47.01,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-perfect-order/rosa%27s-encouragement-123"
+        },
+        {
+          "id": "pokemon-perfect-order/mega-clefable-ex-119",
+          "name": "Mega Clefable ex #119",
+          "number": "119",
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/ik5y5lbb25s4zs4u/240.jpg",
+          "market": 46.99,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-perfect-order/mega-clefable-ex-119"
         }
       ],
-      "topChasesTotal": 391.86
+      "topChasesTotal": 385.78000000000003
     },
     {
       "id": "me4:MEP080",
       "setId": "me4",
       "promoNum": "MEP080",
-      "sealed": 131.8,
-      "promoRaw": 34.51,
-      "promoPsa10": 32.5,
+      "sealed": 126.8,
+      "promoRaw": 34.54,
+      "promoPsa10": null,
       "etbImage": "https://storage.googleapis.com/images.pricecharting.com/4rftidnmti75jahm/240.jpg",
       "promoImage": "https://storage.googleapis.com/images.pricecharting.com/2cd4dlogz54kksb3/240.jpg",
       "topChases": [
-        {
-          "id": "pokemon-chaos-rising/mega-greninja-ex-122",
-          "name": "Mega Greninja ex #122",
-          "number": "122",
-          "rarity": "",
-          "image": "https://storage.googleapis.com/images.pricecharting.com/qyljmpsmt2by5p63/240.jpg",
-          "market": 176.75,
-          "source": "pricecharting",
-          "sourceUrl": "https://www.pricecharting.com/game/pokemon-chaos-rising/mega-greninja-ex-122"
-        },
         {
           "id": "pokemon-chaos-rising/mega-greninja-ex-116",
           "name": "Mega Greninja ex #116",
           "number": "116",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/24r2uwboeoy2uexv/240.jpg",
-          "market": 176.33,
+          "market": 169.64,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-chaos-rising/mega-greninja-ex-116"
+        },
+        {
+          "id": "pokemon-chaos-rising/mega-greninja-ex-122",
+          "name": "Mega Greninja ex #122",
+          "number": "122",
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/qyljmpsmt2by5p63/240.jpg",
+          "market": 166.5,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-chaos-rising/mega-greninja-ex-122"
         },
         {
           "id": "pokemon-chaos-rising/cinccino-ex-119",
@@ -2225,7 +2305,7 @@
           "number": "119",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/bhuwbyqimvkydixu/240.jpg",
-          "market": 51.44,
+          "market": 51.89,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-chaos-rising/cinccino-ex-119"
         },
@@ -2235,7 +2315,7 @@
           "number": "118",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/ycxq7eisly53ossp/240.jpg",
-          "market": 36.97,
+          "market": 39.29,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-chaos-rising/mega-dragalge-ex-118"
         },
@@ -2245,19 +2325,19 @@
           "number": "117",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/sy75extw7dc3uhh4/240.jpg",
-          "market": 34,
+          "market": 30,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-chaos-rising/mega-floette-ex-117"
         }
       ],
-      "topChasesTotal": 475.49
+      "topChasesTotal": 457.32
     },
     {
       "id": "me5:MEP088",
       "setId": "me5",
       "promoNum": "MEP088",
-      "sealed": 122.69,
-      "promoRaw": 27.12,
+      "sealed": 122.5,
+      "promoRaw": 26.57,
       "promoPsa10": null,
       "etbImage": "https://storage.googleapis.com/images.pricecharting.com/fbaw4kuj66wy4fcx/240.jpg",
       "promoImage": "https://storage.googleapis.com/images.pricecharting.com/corrrklq6ie7lw5ja2li/240.jpg",
@@ -2268,7 +2348,7 @@
           "number": "116",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/gujyekycyvkiimeg/240.jpg",
-          "market": 193.31,
+          "market": 192.89,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-pitch-black/mega-darkrai-ex-116"
         },
@@ -2278,7 +2358,7 @@
           "number": "120",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/ua57gb5y3zqkuuxq/240.jpg",
-          "market": 171.9,
+          "market": 163.94,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-pitch-black/mega-darkrai-ex-120"
         },
@@ -2288,7 +2368,7 @@
           "number": "117",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/275t24kfepzjatvd/240.jpg",
-          "market": 87.35,
+          "market": 85.69,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-pitch-black/morpeko-ex-117"
         },
@@ -2298,7 +2378,7 @@
           "number": "114",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/fdratqojtopcgrs5/240.jpg",
-          "market": 52.25,
+          "market": 49.5,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-pitch-black/mega-zeraora-ex-114"
         },
@@ -2308,40 +2388,30 @@
           "number": "115",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/jvsnigr5xfrmrf74/240.jpg",
-          "market": 41.92,
+          "market": 39.43,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-pitch-black/mega-chandelure-ex-115"
         }
       ],
-      "topChasesTotal": 546.73
+      "topChasesTotal": 531.4499999999999
     },
     {
       "id": "me55:MEP101",
       "setId": "me55",
       "promoNum": "MEP101",
-      "sealed": 276,
+      "sealed": 279.99,
       "promoRaw": null,
       "promoPsa10": null,
       "etbImage": "https://storage.googleapis.com/images.pricecharting.com/5eqitkbhdpscxygx/240.jpg",
       "promoImage": null,
       "topChases": [
         {
-          "id": "pokemon-30th-celebration/mew-ex-158",
-          "name": "Mew ex #158",
-          "number": "158",
-          "rarity": "",
-          "image": "https://storage.googleapis.com/images.pricecharting.com/ozvnau4y2x7qojvx/240.jpg",
-          "market": 700,
-          "source": "pricecharting",
-          "sourceUrl": "https://www.pricecharting.com/game/pokemon-30th-celebration/mew-ex-158"
-        },
-        {
           "id": "pokemon-30th-celebration/mewtwo-ex-157",
           "name": "Mewtwo ex #157",
           "number": "157",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/onusb6lrirzwdrku/240.jpg",
-          "market": 497.96,
+          "market": 749.99,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-30th-celebration/mewtwo-ex-157"
         },
@@ -2351,19 +2421,29 @@
           "number": "150",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/44isu6zvckmpr2qr/240.jpg",
-          "market": 460,
+          "market": 335,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-30th-celebration/pikachu-ex-150"
         },
         {
-          "id": "pokemon-30th-celebration/pikachu-ex-149",
-          "name": "Pikachu ex #149",
+          "id": "pokemon-30th-celebration/rayquaza-ex-85",
+          "name": "Rayquaza EX #85",
+          "number": "85",
+          "rarity": "",
+          "image": "https://storage.googleapis.com/images.pricecharting.com/jigtd5kajxkxpgha/240.jpg",
+          "market": 295,
+          "source": "pricecharting",
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-30th-celebration/rayquaza-ex-85"
+        },
+        {
+          "id": "pokemon-30th-celebration/lugia-149",
+          "name": "Lugia #149",
           "number": "149",
           "rarity": "",
-          "image": "https://storage.googleapis.com/images.pricecharting.com/ekfyjxjosaa73dth/240.jpg",
-          "market": 420,
+          "image": "https://storage.googleapis.com/images.pricecharting.com/323ps5e5jr7eoy6o/240.jpg",
+          "market": 242.73,
           "source": "pricecharting",
-          "sourceUrl": "https://www.pricecharting.com/game/pokemon-30th-celebration/pikachu-ex-149"
+          "sourceUrl": "https://www.pricecharting.com/game/pokemon-30th-celebration/lugia-149"
         },
         {
           "id": "pokemon-30th-celebration/charizard-4",
@@ -2371,12 +2451,12 @@
           "number": "4",
           "rarity": "",
           "image": "https://storage.googleapis.com/images.pricecharting.com/iberht5we3unfqwx/240.jpg",
-          "market": 380,
+          "market": 187.37,
           "source": "pricecharting",
           "sourceUrl": "https://www.pricecharting.com/game/pokemon-30th-celebration/charizard-4"
         }
       ],
-      "topChasesTotal": 2457.96
+      "topChasesTotal": 1810.0900000000001
     }
   ]
 }
