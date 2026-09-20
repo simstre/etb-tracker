@@ -10,7 +10,8 @@ type SortKey =
   | "sealed"
   | "promoRaw"
   | "topTotal"
-  | "ratio";
+  | "ratio"
+  | "chaseRatio";
 
 const ERA_BADGE: Record<string, string> = {
   swsh: "bg-indigo-500/15 text-indigo-300 border-indigo-500/30",
@@ -46,6 +47,13 @@ function ratioOf(row: EtbWithPrices): number | null {
   return row.sealed / denom;
 }
 
+function chaseRatioOf(row: EtbWithPrices): number | null {
+  if (!row.sealed) return null;
+  const chase = row.topChases[0]?.market ?? 0;
+  if (chase <= 0) return null;
+  return row.sealed / chase;
+}
+
 function sortValue(row: EtbWithPrices, key: SortKey): number | string {
   switch (key) {
     case "released":
@@ -62,6 +70,8 @@ function sortValue(row: EtbWithPrices, key: SortKey): number | string {
       return row.topChasesTotal ?? -1;
     case "ratio":
       return ratioOf(row) ?? -1;
+    case "chaseRatio":
+      return chaseRatioOf(row) ?? -1;
   }
 }
 
@@ -154,7 +164,10 @@ export function EtbTable({
                   Top 5 total (CAD)
                 </Th>
                 <Th onClick={() => toggleSort("ratio")} active={sortKey === "ratio"} dir={sortDir} className="text-right">
-                  Ratio
+                  ETB to top cards ratio
+                </Th>
+                <Th onClick={() => toggleSort("chaseRatio")} active={sortKey === "chaseRatio"} dir={sortDir} className="text-right">
+                  ETB to chase ratio
                 </Th>
                 <th className="w-8" />
               </tr>
@@ -268,13 +281,16 @@ export function EtbTable({
                       <td className="px-3 py-3 text-right tabular-nums text-muted">
                         {fmtPct(ratioOf(row))}
                       </td>
+                      <td className="px-3 py-3 text-right tabular-nums text-muted">
+                        {fmtPct(chaseRatioOf(row))}
+                      </td>
                       <td className="px-2 py-3 text-muted">
                         <span className={`inline-block transition-transform ${isOpen ? "rotate-90" : ""}`}>›</span>
                       </td>
                     </tr>
                     {isOpen && (
                       <tr className="bg-background-soft/20 border-t border-border">
-                        <td colSpan={10} className="px-4 py-4">
+                        <td colSpan={11} className="px-4 py-4">
                           {row.topChases.length === 0 ? (
                             <p className="text-xs text-muted">
                               No chase cards with TCGPlayer market prices found for{" "}
