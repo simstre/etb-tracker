@@ -1,4 +1,5 @@
 import { Suspense } from "react";
+import Link from "next/link";
 import { getAllPrices, getTrackedEtbs } from "../lib/all-prices";
 import { fetchUsdToCad } from "../lib/fx";
 import { EtbTable } from "../components/EtbTable";
@@ -74,6 +75,10 @@ export default async function Home() {
 
         <footer className="pt-10 border-t border-border text-xs text-muted">
           Prices: PriceCharting · Set data: pokemontcg.io. Not affiliated with The Pokémon Company.
+          {" · "}
+          <Link href="/privacy" className="underline underline-offset-2 hover:text-foreground">
+            Privacy &amp; Contact
+          </Link>
         </footer>
       </div>
     </main>
